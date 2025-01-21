@@ -95,3 +95,5 @@ VIII - organizar, distribuir e remanejar os bens permanentes nas unidades vincul
 IX - controlar e registrar os bens imóveis da Superintendência Regional.
 
 Parágrafo único. O controle da carga patrimonial das unidades administrativas é de responsabilidade das respectivas chefias ou gestores locais designados e a validação de transferências que envolvam unidades gestoras distintas é atribuição do Núcleo de Material.
+
+[Retornar ao menu principal](https://github.com/Mateus-cpa/manual-material/blob/main/README.md)

@@ -38,3 +38,5 @@
 - [Manual de Contabilidade Aplicada ao Setor Público - MCASP](https://www.tesourotransparente.gov.br/publicacoes/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp/2024/26)
 - [Manual de Orientações Contábeis SECONT](https://pfgovbr.sharepoint.com/sites/intranet/Documents/Forms/AllItems.aspx?id=%2Fsites%2Fintranet%2FDocuments%2FContabilidade%20%28SECONT%2DCOF%2DDLOG%29%2FManual%20de%20Orienta%C3%A7%C3%B5es%20Cont%C3%A1beis%2FManual%20SECONT%202024%20%2D%20Orienta%C3%A7%C3%B5es%2023%2D12%2D24%2Epdf&parent=%2Fsites%2Fintranet%2FDocuments%2FContabilidade%20%28SECONT%2DCOF%2DDLOG%29%2FManual%20de%20Orienta%C3%A7%C3%B5es%20Cont%C3%A1beis)
 - [Cartilha de Registros Contábeis Patrimoniais no Nvo Siafi](http://www.dcont.eb.mil.br/images/CARTILHA_DE_REGISTROS_PATRIMONIAIS_NO_SIAFI_JUL_17.pdf)
+
+[Retornar ao menu principal](https://github.com/Mateus-cpa/manual-material/blob/main/README.md)
