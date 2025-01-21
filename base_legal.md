@@ -1,3 +1,4 @@
+[Retornar ao menu principal](https://github.com/Mateus-cpa/manual-material/blob/main/README.md)
 # Leis
 - [Lei 4320/64](https://www.planalto.gov.br/ccivil_03/leis/l4320.htm) - Estatui **Normas Gerais** de Direito Financeiro para elaboração e contrôle dos orçamentos e balanços da União, dos Estados, dos Municípios e do Distrito Federal.
 - [DECRETO-LEI Nº 200, DE 25 DE FEVEREIRO DE 1967](https://www.planalto.gov.br/ccivil_03/decreto-lei/del0200.htm) - Dispõe sôbre a organização da Administração Federal, estabelece diretrizes para a Reforma Administrativa e dá outras providências.
@@ -6,7 +7,7 @@
 - Decreto Nº 99.658/1990 - Regulamenta, no âmbito da Administração Pública Federal, o reaproveitamento, a movimentação, a alienação e outras formas de desfazimento de material. Revogado pelo Decreto nº 9.373, de 2018
 - [Lei Nº 10.861/2004](https://www.planalto.gov.br/ccivil_03/leis/2003/L10.826compilado.htm) - Dispõe sobre registro, posse e comercialização de armas de fogo e munição, sobre o Sistema Nacional de Armas – Sinarm, define crimes e dá outras providências.
 - [Decreto 9373/2018 Presidência] - Dispõe sobre a alienação, a cessão, a transferência, a destinação e a disposição final ambientalmente adequadas de bens móveis no âmbito da administração pública federal direta, autárquica e fundacional.
-- [Decreto 10.340/20] - Dispõe sobre o padrão mínimo de qualidade do Sistema Único e Integrado de Execução Orçamentária, Administração Financeira e Controle.
+- [Decreto 10.340/2020] - Dispõe sobre o padrão mínimo de qualidade do Sistema Único e Integrado de Execução Orçamentária, Administração Financeira e Controle.
 - [Lei 14133/2021] - Lei de Licitações e Contratos Administrativos.
 # Normas gerais do Executivo
 - [Instrução Normativa DASP/PR nº 142, de 1983](http://inmetro.gov.br/legislacao/laf/pdf/LAF000168.pdf) - o controle patrimonial sobre bens permanentes deve ser compatibilizado com o custo do bem
