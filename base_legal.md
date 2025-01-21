@@ -3,12 +3,14 @@
 - [Lei 4320/64](https://www.planalto.gov.br/ccivil_03/leis/l4320.htm) - Estatui **Normas Gerais** de Direito Financeiro para elaboração e contrôle dos orçamentos e balanços da União, dos Estados, dos Municípios e do Distrito Federal.
 - [DECRETO-LEI Nº 200, DE 25 DE FEVEREIRO DE 1967](https://www.planalto.gov.br/ccivil_03/decreto-lei/del0200.htm) - Dispõe sôbre a organização da Administração Federal, estabelece diretrizes para a Reforma Administrativa e dá outras providências.
 - [Lei nº 5.700/71](https://www.planalto.gov.br/ccivil_03/leis/l5700.htm) - define os símbolos nacionais e estabelece normas para seu uso, produção, reprodução e distribuição. A inutilização de símbolos nacionais deve seguir os requisitos dessa lei e das normas complementares do Ministério da Defesa.
-- [Lei Nº 96.141/88](http://www.planalto.gov.br/ccivil_03/decreto/1980-1989/D96141impressao.htm) - regula o reaproveitamento, a movimentação e a alienação de material, bem assim outras formas de seu desfazimento
-- Decreto Nº 99.658/1990 - Regulamenta, no âmbito da Administração Pública Federal, o reaproveitamento, a movimentação, a alienação e outras formas de desfazimento de material. Revogado pelo Decreto nº 9.373, de 2018
+- [Lei Nº 96.141/88](http://www.planalto.gov.br/ccivil_03/decreto/1980-1989/D96141impressao.htm) - Regula o reaproveitamento, a movimentação e a alienação de material, bem assim outras formas de seu desfazimento.
+- [Lei 10.180/2001](http://www.dcont.eb.mil.br/images/CARTILHA_DE_REGISTROS_PATRIMONIAIS_NO_SIAFI_JUL_17.pdf) - Organiza e disciplina os Sistemas de Planejamento e de Orçamento Federal, de Administração Financeira Federal, de Contabilidade Federal e de Controle Interno do Poder Executivo Federal, e dá outras providências.
 - [Lei Nº 10.861/2004](https://www.planalto.gov.br/ccivil_03/leis/2003/L10.826compilado.htm) - Dispõe sobre registro, posse e comercialização de armas de fogo e munição, sobre o Sistema Nacional de Armas – Sinarm, define crimes e dá outras providências.
-- [Decreto 9373/2018 Presidência] - Dispõe sobre a alienação, a cessão, a transferência, a destinação e a disposição final ambientalmente adequadas de bens móveis no âmbito da administração pública federal direta, autárquica e fundacional.
-- [Decreto 10.340/2020] - Dispõe sobre o padrão mínimo de qualidade do Sistema Único e Integrado de Execução Orçamentária, Administração Financeira e Controle.
-- [Lei 14133/2021] - Lei de Licitações e Contratos Administrativos.
+- [Decreto 9.373/2018 Presidência](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9373.htm) - Dispõe sobre a alienação, a cessão, a transferência, a destinação e a disposição final ambientalmente adequadas de bens móveis no âmbito da administração pública federal direta, autárquica e fundacional. Revoga [Decreto Nº 99.658/1990](https://www.planalto.gov.br/ccivil_03/decreto/antigos/D99658.htmimpressao.htm) - Regulamenta, no âmbito da Administração Pública Federal, o reaproveitamento, a movimentação, a alienação e outras formas de desfazimento de material.
+- [DECRETO Nº 9.764/2019](http://legislacao.planalto.gov.br/legisla/legislacao.nsf/Viw_Identificacao/DEC%209.764-2019?OpenDocument) - Dispõe sobre o recebimento de doações de bens móveis e de serviços de pessoas físicas ou jurídicas de direito privado pelos órgãos e pelas entidades da administração pública federal direta, autárquica e fundacional.
+- [Decreto 10.340/2020](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2020/decreto/d10540.htm#:~:text=DECRETO%20N%C2%BA%2010.540%2C%20DE%205,Or%C3%A7ament%C3%A1ria%2C%20Administra%C3%A7%C3%A3o%20Financeira%20e%20Controle.) - Dispõe sobre o padrão mínimo de qualidade do Sistema Único e Integrado de Execução Orçamentária, Administração Financeira e Controle.
+- [Lei 14133/2021](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14133.htm) - Lei de Licitações e Contratos Administrativos.
+
 # Normas gerais do Executivo
 - [Instrução Normativa DASP/PR nº 142, de 1983](http://inmetro.gov.br/legislacao/laf/pdf/LAF000168.pdf) - o controle patrimonial sobre bens permanentes deve ser compatibilizado com o custo do bem
 - [IN SEDAP 205/88](https://www.comprasnet.gov.br/legislacao/in/in205_88.htm): racionalizar com minimização de custos o uso de material no âmbito do SISG através de técnicas modernas que atualizam e enriquecem essa gestão com as desejáveis condições de operacionalidade, no emprego do material nas diversas atividades.
@@ -17,17 +19,22 @@
 - [Portaria STN 448/2002](https://sisweb.tesouro.gov.br/apex/f?p=2501:9::::9:P9_ID_PUBLICACAO:8754):  Portaria SOF - Detalhamento das NDs.
 - [CPC 46 (IASB - BV 2012)](https://conteudo.cvm.gov.br/export/sites/cvm/menu/regulados/normascontabeis/cpc/CPC_46_rev_12.pdf) - Avaliação de valor justo
 - [Macrofunção 02.03.30](https://sisweb.tesouro.gov.br/apex/cosis/manuais/siafi/020330) - DEPRECIAÇÃO, AMORTIZAÇÃO E EXAUSTÃO NA ADM. DIR. UNIÃO, AUT. E FUND
+- [Macrofunção 02.03.34](https://sisweb.tesouro.gov.br/apex/cosis/manuais/siafi/020334) - BENS DE INFRAESTRUTURA E DO PATRIMÔNIO CULTURAL
 - [Macrofunção 02.03.35](https://sisweb.tesouro.gov.br/apex/cosis/manuais/siafi/020335) - Avaliação e reavaliação de bens não localizados.
 - [Macrofunção 02.10.06](https://sisweb.tesouro.gov.br/apex/cosis/manuais/siafi/021006) - Manual  de regularizações contábeis - Material Permanente
+- [Macrofunção 02.11.34](https://sisweb.tesouro.gov.br/apex/cosis/manuais/siafi/021134) - MOVIMENTAÇÃO E ALIENAÇÃO DE BENS
 - [Macrofunção 02.11.38](https://sisweb.tesouro.gov.br/apex/cosis/manuais/siafi/021138) - Diversos Responsáveis (apuração de responsabilidade)
 
 # Instruções Normativas - PF
 - [IN DG/PF 22/2005](https://pfgovbr.sharepoint.com/sites/intranet/normativosinternos/Instru%C3%A7%C3%A3o%20Normativa/2005/in-022-2005-dg-dpf.pdf#search=22%2F2005) - Estabelece procedimentos para a gestão administrativa das atividades de material e patrimônio relativas às mercadorias e bens móveis apreendidos pela Receita Federal, destinados à incorporação pelo Departamento de Polícia Federal, e dá outras providências.
-- [IN DG/PF 178/2020] - Disciplina a forma de concessão e de recolhimento de armas para uso pessoal do acervo da Polícia Federal. 
-- [IN DG/PF 181/2020] - Regulamenta os procedimentos para realização de inventário de bens e de passagem de carga, no âmbito da Polícia Federal. __*Revogou IN DG/DPF 09/83 - sobre movimentação de bens móveis*__
-- [Ofício Circular 4 (15745077)] - DLOG/PF diz que apenas os aparelhos de uso policial serão considerados materiais de consumo.
-- [DECRETO Nº 9.764/2019] - Dispõe sobre o recebimento de doações de bens móveis e de serviços de pessoas físicas ou jurídicas de direito privado pelos órgãos e pelas entidades da administração pública federal direta, autárquica e fundacional.
-- Portaria Nº 15.431/2021 - DG/PF - Regulamenta a gestão de armamentos e equipamentos táticos (GATs).
-- IN DG/PF 225/2022 - Estabelece procedimentos referentes à realização de leilão, com vistas à alienação de veículos oficiais, outros bens móveis e bens apreendidos.
-- IN DG/PF nº 270/2023 - Estabelece as competências específicas das unidades centrais e descentralizadas da Polícia Federal e as atribuições de seus dirigentes.
+- [IN DG/PF 178/2020](https://pfgovbr.sharepoint.com/sites/intranet/normativosinternos/Instru%C3%A7%C3%A3o%20Normativa/2020/in-178-2020-dg-pf.pdf#search=in%20178) - Disciplina a forma de concessão e de recolhimento de armas para uso pessoal do acervo da Polícia Federal. 
+- [IN DG/PF 181/2020](https://pfgovbr.sharepoint.com/sites/intranet/normativosinternos/Instru%C3%A7%C3%A3o%20Normativa/2020/in-181-2020-dg-pf.pdf#search=IN%20DG%20181%2F2020) - Regulamenta os procedimentos para realização de inventário de bens e de passagem de carga, no âmbito da Polícia Federal. __*Revogou IN DG/DPF 09/83 - sobre movimentação de bens móveis*__
+- Ofício Circular 4 (15745077) - DLOG/PF diz que apenas os aparelhos de uso policial poderão ser classificados como materiais de consumo.
+- [Portaria Nº 15.431]/2021(https://pfgovbr-my.sharepoint.com/:b:/g/personal/faccin_ncrf_pf_gov_br/EUDafvgG7gRDqsP6Sv_dMc4BtfUgnQAs3dRKvTOIBSWuMQ?e=MOnPvW) - DG/PF - Regulamenta a gestão de armamentos e equipamentos táticos (GATs).
+- [IN DG/PF 225/2022](https://pfgovbr.sharepoint.com/sites/intranet/normativosinternos/Instru%C3%A7%C3%A3o%20Normativa/2022/in-225-2022-dg-pf.pdf#search=in%20225%2F2022) - Estabelece procedimentos referentes à realização de leilão, com vistas à alienação de veículos oficiais, outros bens móveis e bens apreendidos.
+- [IN DG/PF nº 270/2023](https://pfgovbr.sharepoint.com/sites/intranet/normativosinternos/Instru%C3%A7%C3%A3o%20Normativa/2023/in-270-2023-dg-pf.aspx#search=fun%C3%A7%C3%B5es%20or%C3%A7amento%20material%20log%C3%ADstica) - Estabelece as competências específicas das unidades centrais e descentralizadas da Polícia Federal e as atribuições de seus dirigentes.
 - Ofício Circular 1 (27075896) - Sobre destinação TETRAPOL e materiais de comunicação.
+# Manuais e Roteiros
+- [Manual de Contabilidade Aplicada ao Setor Público - MCASP](https://www.tesourotransparente.gov.br/publicacoes/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp/2024/26)
+- [Manual de Orientações Contábeis SECONT](https://pfgovbr.sharepoint.com/sites/intranet/Documents/Forms/AllItems.aspx?id=%2Fsites%2Fintranet%2FDocuments%2FContabilidade%20%28SECONT%2DCOF%2DDLOG%29%2FManual%20de%20Orienta%C3%A7%C3%B5es%20Cont%C3%A1beis%2FManual%20SECONT%202024%20%2D%20Orienta%C3%A7%C3%B5es%2023%2D12%2D24%2Epdf&parent=%2Fsites%2Fintranet%2FDocuments%2FContabilidade%20%28SECONT%2DCOF%2DDLOG%29%2FManual%20de%20Orienta%C3%A7%C3%B5es%20Cont%C3%A1beis)
+- [Cartilha de Registros Contábeis Patrimoniais no Nvo Siafi](http://www.dcont.eb.mil.br/images/CARTILHA_DE_REGISTROS_PATRIMONIAIS_NO_SIAFI_JUL_17.pdf)
