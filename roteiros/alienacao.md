@@ -1,7 +1,71 @@
 [Retornar ao menu principal](https://github.com/Mateus-cpa/manual-material/blob/main/README.md)
 
 [Retornar para Roteiros](https://github.com/Mateus-cpa/manual-material/blob/main/roteiros.md)
-# Alienação
+# Alienação (baixa) de bens
+
+Conforme o 8.2.2., por padrão o valor de mercado pode ser utilizado ao invés do atual. Valor de mercado para licitação é diferente para cotação por pessoa física.
+
+## Doação
+Quando o destinatário tem proveito.
+
+```
+Art. 6º Os bens móveis inservíveis ociosos e os recuperáveis poderão ser reaproveitados, mediante transferência interna ou externa.
+```
+
+
+## Destinação
+Descarte: Quando não há mais proveito do bem.
+
+```
+Art. 7º Os bens móveis inservíveis cujo reaproveitamento seja considerado inconveniente ou inoportuno serão alienados em conformidade com a legislação aplicável às licitações e aos contratos no âmbito da administração pública federal direta, autárquica e fundacional, indispensável a avaliação prévia. 
+```
+
+Decreto 9373/18
+Parágrafo único. Verificada a impossibilidade ou a inconveniência da alienação do bem classificado como irrecuperável, a autoridade competente determinará sua destinação ou disposição final ambientalmente adequada, nos termos da Lei nº 12.305, de 2010.
+
+Veículos
+Laudo de Avaliação de Veículos - realizado pela Utran.
+Faz uma avaliação a valor de mercado, no caso das viaturas.
+Modelo SETRAN/DIFRO:
+
+
+Compara o valor calculado por fórmula com o eLog e utiliza o valor menor.
+Para viaturas, conforme a IN, preferencialmente veículos as alienações são por Leilão.
+Os servidores da unidade de transporte podem fazer de ofício para dar suporte à unidade de Material.
+Bens específicos
+Comissão especial com no mínimo 3 servidores da unidade de utilização do bem para realizar a destruição.
+SIP, DRE, NEPOM, NTI, GAT, UTRAN.
+Bens de uso comum
+Laudo de Avaliação Patrimonial é emitido pela Unidade de Material para (macrofunção STN 02.03.30) 
+Pode ser Comissão de Avaliação fixa para bens de uso comum.
+No SEI
+
+No eLog
+Ajuste de Gerência/Ajuste de Valor Contábil
+Execução da Alienação
+Caminho: sipac/patrimônio/Cadastro/Gerência/Alienação/Baixa/Registrar/ Alienar Baixa
+Dados de recebedor de alienador: 
+Tipo do Fornecedor:	Pessoa Física Pessoa Jurídica Unidade Gestora Estrangeiro
+Razão Social:
+Nome Fantasia:	
+CPF/CNPJ:	
+Representante:	
+Endereço:	
+Bairro:	
+Cidade:	
+CEP:	
+Email:	
+Fone:	
+Fax:	
+NIT ou PIS/PASEP
+Pessoas físicas apenas para leilão ou para semoventes (indicado pelo cuidador).
+Cadastre-se primeiramente o destinatário:
+
+Após elenque os bens a serem destinados:
+
+
+Verifique se foi lançado o PA no SIAFI.
+
 
 [Retornar para Roteiros](https://github.com/Mateus-cpa/manual-material/blob/main/roteiros.md)
 
