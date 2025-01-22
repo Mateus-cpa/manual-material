@@ -21,7 +21,7 @@ Bens permanentes: aqueles que em razão de seu uso corrente, não perdem a sua i
 >Conforme Decreto 9373/18 - Art. 3º Para que seja considerado inservível, o bem será classificado como:
 
 - **Ocioso**: em perfeitas condições, mas não aproveitado;
-- Recuperável: -50% do valor, justificável a sua recuperação;
+- **Recuperável**: -50% do valor, justificável a sua recuperação;
 - **Antieconômico**: rendimento precário, desgaste prematuro, obsoleto;
 `Viaturas: FÓRMULA - ÍNDICE DE ANTIECONOMICIDADE DAS VIATURAS DA POLÍCIA FEDERAL (Anexo III, IN DG/PF 203/2021)`
 - **Irrecuperável**: manutenção corretiva for maior que 50% do valor atual;
