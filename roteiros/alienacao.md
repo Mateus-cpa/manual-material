@@ -14,19 +14,33 @@ Art. 6º Os bens móveis inservíveis ociosos e os recuperáveis poderão ser re
 
 
 ## Destinação
-Descarte: Quando não há mais proveito do bem.
+**Descarte**: Quando não há mais proveito do bem. Conforme Decreto 9373/18:
 
 ```
 Art. 7º Os bens móveis inservíveis cujo reaproveitamento seja considerado inconveniente ou inoportuno serão alienados em conformidade com a legislação aplicável às licitações e aos contratos no âmbito da administração pública federal direta, autárquica e fundacional, indispensável a avaliação prévia. 
-```
 
-Decreto 9373/18
 Parágrafo único. Verificada a impossibilidade ou a inconveniência da alienação do bem classificado como irrecuperável, a autoridade competente determinará sua destinação ou disposição final ambientalmente adequada, nos termos da Lei nº 12.305, de 2010.
-
-Veículos
+```
+### Veículos
 Laudo de Avaliação de Veículos - realizado pela Utran.
+
 Faz uma avaliação a valor de mercado, no caso das viaturas.
+
 Modelo SETRAN/DIFRO:
+
+Identificação | Informação 
+:------- | ----: 
+Marca/Modelo | xxx
+Fabricação | xxx
+Placa Oficial | xxx
+Carga Patrimonial | xxx
+Tempo de uso | xxx
+Rodagem | xxx
+Histórico de Manutenção | xxx
+Orçamento para ficar em condições de rodagem | xxx
+Valor do bem pela tabela FIPE | xxx
+Valor do bem no sistema eLog | xxx
+
 
 
 Compara o valor calculado por fórmula com o eLog e utiliza o valor menor.
