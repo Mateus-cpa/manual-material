@@ -41,42 +41,70 @@ Orçamento para ficar em condições de rodagem | xxx
 Valor do bem pela tabela FIPE | xxx
 Valor do bem no sistema eLog | xxx
 
+ Cálculo de índice de Antieconomicidade
+ 
+Dado  | Fórmula
+ :------- | ----:
+Valor Fipe (R$) | Fipe
+Histórico de manutenções | Hm
+Manutenções necessárias | Mn
+Custo acumulado de manutenção | Cam = Hm + Mn
+Índice de antieconomicidade | Ia = Cam/Fipe
 
+Cálculo de Valor de REferÊncia
+Dado  | Fórmula
+ :------- | ----:
+Valor Fipe | Fipe
+Valor patrimonial depreciado no eLog | Vpd
+Manutenções necessárias | Mn
+Valor de referÊncia | Vr = (Fipe+Vpd)/2-Mn
 
 Compara o valor calculado por fórmula com o eLog e utiliza o valor menor.
-Para viaturas, conforme a IN, preferencialmente veículos as alienações são por Leilão.
-Os servidores da unidade de transporte podem fazer de ofício para dar suporte à unidade de Material.
-Bens específicos
-Comissão especial com no mínimo 3 servidores da unidade de utilização do bem para realizar a destruição.
-SIP, DRE, NEPOM, NTI, GAT, UTRAN.
-Bens de uso comum
-Laudo de Avaliação Patrimonial é emitido pela Unidade de Material para (macrofunção STN 02.03.30) 
-Pode ser Comissão de Avaliação fixa para bens de uso comum.
-No SEI
 
-No eLog
-Ajuste de Gerência/Ajuste de Valor Contábil
-Execução da Alienação
+Para viaturas, conforme a IN, preferencialmente veículos as alienações são por Leilão.
+
+Os servidores da unidade de transporte podem fazer de ofício para dar suporte à unidade de Material.
+
+## Bens específicos
+Comissão especial com no mínimo 3 servidores da unidade de utilização do bem para realizar a destruição.
+
+SIP, DRE, NEPOM, NTI, GAT, UTRAN.
+
+## Bens de uso comum
+Laudo de Avaliação Patrimonial é emitido pela Unidade de Material para (macrofunção STN 02.03.30) 
+
+Pode ser Comissão de Avaliação fixa para bens de uso comum.
+
+### No SEI (comissão)
+> Laudo de Avaliação Patrimonial
+
+### No SEI (Ordenador)
+> Autorizar a alienação
+
+### No eLog ((Unidade de Material))
+Realizar Ajuste de Gerência/Ajuste de Valor Contábil
+
+> Execução da Alienação
 Caminho: sipac/patrimônio/Cadastro/Gerência/Alienação/Baixa/Registrar/ Alienar Baixa
-Dados de recebedor de alienador: 
-Tipo do Fornecedor:	Pessoa Física Pessoa Jurídica Unidade Gestora Estrangeiro
-Razão Social:
-Nome Fantasia:	
-CPF/CNPJ:	
-Representante:	
-Endereço:	
-Bairro:	
-Cidade:	
-CEP:	
-Email:	
-Fone:	
-Fax:	
-NIT ou PIS/PASEP
-Pessoas físicas apenas para leilão ou para semoventes (indicado pelo cuidador).
+> Dados de recebedor de alienador: 
+- Tipo do Fornecedor:	Pessoa Física / Pessoa Jurídica / Unidade Gestora / Estrangeiro
+- Razão Social:
+- Nome Fantasia:	
+- CPF/CNPJ:	
+- Representante:	
+- Endereço:	
+- Bairro:	
+- Cidade:	
+- CEP:	
+- Email:	
+- Fone:	
+- Fax:	
+- NIT ou PIS/PASEP
+> Pessoas físicas apenas para leilão ou para semoventes (indicado pelo cuidador).
+
 Cadastre-se primeiramente o destinatário:
 
 Após elenque os bens a serem destinados:
-
 
 Verifique se foi lançado o PA no SIAFI.
 
