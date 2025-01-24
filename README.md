@@ -9,6 +9,7 @@ Trata-se de roteiro para Unidades de Material da Administração Pública Federa
 ### [Tarefas da rotina da Unidade de Material](https://github.com/Mateus-cpa/manual-material/blob/main/tarefas.md)
 ### [Recursos Humanos](https://github.com/Mateus-cpa/manual-material/blob/main/recursos_humanos.md)
 ### [Roteiros técnicos](https://github.com/Mateus-cpa/manual-material/blob/main/roteiros.md)
+### [Lançamentos SIAFI](https://lookerstudio.google.com/reporting/ffe08847-326c-4d18-8508-913ba6a8dfc6)
 
 ## Roteiros
 ### [Acautelamento de bens](https://github.com/Mateus-cpa/manual-material/blob/main/roteiros/acautelamento.md)
@@ -17,7 +18,7 @@ Trata-se de roteiro para Unidades de Material da Administração Pública Federa
 ### [Desmembramento de Bens](https://github.com/Mateus-cpa/manual-material/blob/main/roteiros/desmembramento_bem.md)
 ### [Entendimentos Institucionais](https://github.com/Mateus-cpa/manual-material/blob/main/roteiros/entendimentos_institucionais.md)
 ### [Gestão de perfis SIGADMIN](https://github.com/Mateus-cpa/manual-material/blob/main/roteiros/gestao_perfis_sipac.md)
-### [Incorporacao por Doação](https://github.com/Mateus-cpa/manual-material/blob/main/roteiros/incorporacao_doacao.md)
+### [Incorporação por Doação](https://github.com/Mateus-cpa/manual-material/blob/main/roteiros/incorporacao_doacao.md)
 ### [Incorporações](https://github.com/Mateus-cpa/manual-material/blob/main/roteiros/incorporacoes.md)
 ### [Inventário](https://github.com/Mateus-cpa/manual-material/blob/main/roteiros/inventario.md)
 ### [Lançamentos Siafi](https://github.com/Mateus-cpa/manual-material/blob/main/roteiros/lancamentos_siafi.md)
