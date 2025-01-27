@@ -11,6 +11,8 @@ Outro servidor pode ser designado para gerenciar localmente os materiais.
 ## Atribuir perfil
     >Caminho: Usuários/Permissões/Implantar Permissões
 
+![implantar perfis](https://github.com/Mateus-cpa/manual-material/blob/main/img/Gest%C3%A3o%20de%20perfis.PNG)
+
 - *Gestor patrimônio local* 
 - *Autorizador*: Requisição pode solicitar diretamente para o Almoxarifado.
 
