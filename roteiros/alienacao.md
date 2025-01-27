@@ -104,7 +104,10 @@ Caminho: sipac/patrimônio/Cadastro/Gerência/Alienação/Baixa/Registrar/ Alien
 
 Cadastre-se primeiramente o destinatário:
 
+![Cadastro Destinatário](https://github.com/Mateus-cpa/manual-material/blob/main/img/registrar-alienar%20baixa.PNG)
+
 Após elenque os bens a serem destinados:
+
 
 Verifique se foi lançado o PA no SIAFI.
 
