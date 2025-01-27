@@ -1,7 +1,7 @@
 [Retornar ao menu principal](https://github.com/Mateus-cpa/manual-material/blob/main/README.md)
 
 [Retornar para Roteiros](https://github.com/Mateus-cpa/manual-material/blob/main/roteiros.md)
-# Movimentação de Bens
+# Movimentação de Bens para outros Órgãos
 O Termo de Responsabilidade lastreia a mudança de responsabilidade sobre o bem. Pode ser:
 - Interna: Dentro da Unidade Gestora.
 - Externa: Entre Unidades Gestoras. 
@@ -17,6 +17,7 @@ Cadastrar Documento Hábil no Siafi. Através da integração, ele envia o DH La
 ### SIPAC
 > Caminho: sipac/patrimônio/gerência/movimentações para outros órgãos
 
+![Movimentação para outros Órgãos](https://github.com/Mateus-cpa/manual-material/blob/main/img/Transfer%C3%8Ancia%20externa%20outros%20%C3%B3rg%C3%A3os.PNG)
 
 Modalidade de desfazimento: 
 - Cessão: Empréstimo com previsão de retorno
