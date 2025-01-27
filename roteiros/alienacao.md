@@ -108,6 +108,7 @@ Cadastre-se primeiramente o destinatário:
 
 Após elenque os bens a serem destinados:
 
+![Cadastro Bens](https://github.com/Mateus-cpa/manual-material/blob/main/img/registrar-alienar%20baixa2.PNG)
 
 Verifique se foi lançado o PA no SIAFI.
 
