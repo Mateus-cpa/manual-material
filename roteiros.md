@@ -3,6 +3,7 @@
 ### [Acautelamento de bens](https://github.com/Mateus-cpa/manual-material/blob/main/roteiros/acautelamento.md)
 ### [Alienação de bens](https://github.com/Mateus-cpa/manual-material/blob/main/roteiros/alienacao.md)
 ### [Alteração de Bens](https://github.com/Mateus-cpa/manual-material/blob/main/roteiros/alteracao_bem.md)
+### [Cadastrar NE no eLog](https://github.com/Mateus-cpa/manual-material/blob/main/roteiros/cadastra_ne_elog.pdf)
 ### [Desmembramento de Bens](https://github.com/Mateus-cpa/manual-material/blob/main/roteiros/desmembramento_bem.md)
 ### [Entendimentos Institucionais](https://github.com/Mateus-cpa/manual-material/blob/main/roteiros/entendimentos_institucionais.md)
 ### [Gestão de perfis SIGADMIN](https://github.com/Mateus-cpa/manual-material/blob/main/roteiros/gestao_perfis_sipac.md)
