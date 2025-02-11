@@ -2,10 +2,18 @@
 
 [Retornar para Roteiros](https://github.com/Mateus-cpa/manual-material/blob/main/roteiros.md)
 # Incorporação por Doação
+
+## Instrução de processo SEI pela Unidade requisitante
+1. Abre um processo SEI de Material Permanente: Recebimento;
+2. Cria um Ofício ao Ordenador (SR), para deliberação quanto à incorporação patrimonial dos bens;
+3. Se Bens apreendidos pela RFB, seguir os ritos da [IN DG/PF 22/2005](https://pfgovbr.sharepoint.com/sites/intranet/normativosinternos/Instru%C3%A7%C3%A3o%20Normativa/2005/in-022-2005-dg-dpf.pdf#search=22%2F2005);
+4. Anexa o Termo de Recebimento Definitivo;
+5. Após autorização, ao NUMAT para realizar a incorporação.
+
 ## eLog
 > **Caminho**: sipac/Patrimônio/Bens/Tombamento de Bem por Outros Tipos de Entrada
 - Tipo: Doação de outro Órgão Federal
-- Tipo de documento: ADM
+- Tipo de documento: ADM (se oriundo da RFB)
 - Valor: Deve ser o unitário. Se a divisão do total do documento dividido pela quantidade, realize duas entradas, uma com o valor restante, para que o valor total seja igual ao do documento de origem.
 > Observações: sempre citar o processo SEI.
 
