@@ -38,6 +38,7 @@
 - [Despacho 36254144 - DMAT/CGAD/DLOG](https://sei4.pf.gov.br/sei/controlador.php?acao=procedimento_trabalhar&acao_origem=protocolo_pesquisa_rapida&id_protocolo=49238413&infra_sistema=100000100&infra_unidade_atual=120005990&infra_hash=018fc97d6b9766ad691959527367f2c0f741794266e381a6c947b67d81544e46) - reclassificação como consumo celulares e tablets
 - [Ofício Circular 4 DLOG/PF (15745077)](https://sei4.pf.gov.br/sei/controlador.php?acao=procedimento_trabalhar&acao_origem=protocolo_pesquisa_rapida&id_protocolo=19619801&infra_sistema=100000100&infra_unidade_atual=120005990&infra_hash=b0b80c6666082f4aced99190d7c8ea1d18f0c7217827f5338d6dfb85a29bd59c) - Classificação Contábil de Bens - Aparelhos Celulares, Smartwatches e HD's Externos em uso polícia
 
+
 # Manuais e Roteiros
 - [Manual de Contabilidade Aplicada ao Setor Público - MCASP](https://www.tesourotransparente.gov.br/publicacoes/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp/2024/26)
 - [Manual de Orientações Contábeis SECONT](https://pfgovbr.sharepoint.com/sites/intranet/Documents/Forms/AllItems.aspx?id=%2Fsites%2Fintranet%2FDocuments%2FContabilidade%20%28SECONT%2DCOF%2DDLOG%29%2FManual%20de%20Orienta%C3%A7%C3%B5es%20Cont%C3%A1beis%2FManual%20SECONT%202024%20%2D%20Orienta%C3%A7%C3%B5es%2023%2D12%2D24%2Epdf&parent=%2Fsites%2Fintranet%2FDocuments%2FContabilidade%20%28SECONT%2DCOF%2DDLOG%29%2FManual%20de%20Orienta%C3%A7%C3%B5es%20Cont%C3%A1beis)
