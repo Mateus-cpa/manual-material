@@ -5,6 +5,8 @@
 ### [Alteração de Bens](https://github.com/Mateus-cpa/manual-material/blob/main/roteiros/alteracao_bem.md)
 ### [Apropriação Instrumentos de Cobrança no Comprasnet](https://github.com/Mateus-cpa/manual-material/blob/main/apropriacao_instr_cobranca_comprasnet.pdf)
 ### [Cadastrar NE no eLog](https://github.com/Mateus-cpa/manual-material/blob/main/roteiros/cadastra_ne_elog.pdf)
+### [Conciliação](https://github.com/Mateus-cpa/manual-material/blob/main/roteiros/conciliacao.md)
+### [Configura impressora Zebra](https://github.com/Mateus-cpa/manual-material/blob/main/roteiros/configura_zebra.md)
 ### [Desmembramento de Bens](https://github.com/Mateus-cpa/manual-material/blob/main/roteiros/desmembramento_bem.md)
 ### [Entendimentos Institucionais](https://github.com/Mateus-cpa/manual-material/blob/main/roteiros/entendimentos_institucionais.md)
 ### [Gestão de perfis SIGADMIN](https://github.com/Mateus-cpa/manual-material/blob/main/roteiros/gestao_perfis_sipac.md)
@@ -17,8 +19,7 @@
 ### [Movimentação de bens](https://github.com/Mateus-cpa/manual-material/blob/main/roteiros/movimentacao.md)
 ### [Reclassificação de Bens](https://github.com/Mateus-cpa/manual-material/blob/main/roteiros/reclassificacao_bens.md)
 ### [Relatório de bens](https://github.com/Mateus-cpa/manual-material/blob/main/roteiros/relatorio_bens.md)
+### [Requisição em Almoxarifado](https://github.com/Mateus-cpa/manual-material/blob/main/roteiros/requisicao_almox.md)
 ### [Viaturas](https://github.com/Mateus-cpa/manual-material/blob/main/roteiros/viaturas.md)
-### [Configura impressora Zebra](https://github.com/Mateus-cpa/manual-material/blob/main/roteiros/configura_zebra.md)
-### [Conciliação](https://github.com/Mateus-cpa/manual-material/blob/main/roteiros/conciliacao.md)
 
 [Retornar ao menu principal](https://github.com/Mateus-cpa/manual-material/blob/main/README.md)
