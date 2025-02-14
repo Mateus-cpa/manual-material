@@ -10,6 +10,7 @@
 ### [Desmembramento de Bens](https://github.com/Mateus-cpa/manual-material/blob/main/roteiros/desmembramento_bem.md)
 ### [Entendimentos Institucionais](https://github.com/Mateus-cpa/manual-material/blob/main/roteiros/entendimentos_institucionais.md)
 ### [Gestão de perfis SIGADMIN](https://github.com/Mateus-cpa/manual-material/blob/main/roteiros/gestao_perfis_sipac.md)
+### [Inclusão em Frota de veículos apreendidos](https://github.com/Mateus-cpa/manual-material/blob/main/roteiros/inclusao_frota.md)
 ### [Incorporação por Doação](https://github.com/Mateus-cpa/manual-material/blob/main/roteiros/incorporacao_doacao.md)
 ### [Incorporações](https://github.com/Mateus-cpa/manual-material/blob/main/roteiros/incorporacoes.md)
 ### [Inventário](https://github.com/Mateus-cpa/manual-material/blob/main/roteiros/inventario.md)
