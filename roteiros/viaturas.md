@@ -44,31 +44,27 @@ Capacidade da SR/PF de arcar com manutenções e abastecimentos (consultar SELOG
 
 Justificar a solicitação.
 
-## Apreensão
-Conforme a IN DG/PF 203/2021, anexo V (fluxograma):
-1. Autorização do Ordenador de Despesas;
-2. Autorização do DLOG;
-3. Autorização judicial;
-4. Solicitar emissão do Certificado de Registro e Licenciamento do Veículo (CRLV-e) (Detran) em nome da Polícia;
+Solicitar emissão do Certificado de Registro e Licenciamento do Veículo (CRLV-e) (Detran) em nome da Polícia;
 - Detran deve expedir para tornar o veículo uma viatura;
   >§ 4º  Quando a autorização judicial recair sobre veículos, embarcações ou aeronaves, o juiz ordenará à autoridade ou ao órgão de registro e controle a expedição de certificado provisório de registro e licenciamento em favor do órgão ao qual tenha deferido o uso ou custódia, ficando este livre do pagamento de multas, encargos e tributos anteriores à decisão de utilização do bem até o trânsito em julgado da decisão que decretar o seu perdimento em favor da União. (Art. 63 Lei nº 11.343 - Planalto)
 
-Isenta de: 
-  
-- IPVA; 
-- taxas; e 
-- Multa (Código de Trânsito Brasileiro, Art. 280 par.6º);
+  Viatura é isenta de:   
+  - IPVA; 
+  - taxas; e 
+  - Multa (Código de Trânsito Brasileiro, Art. 280 par.6º);
 
   >Art. 280. Ocorrendo infração prevista na legislação de trânsito, lavrar-se-á auto de infração, do qual constará:
   
   >§ 6º Não há infração de circulação, parada ou estacionamento relativa aos veículos destinados a socorro de incêndio e salvamento, aos de polícia, aos de fiscalização e operação de trânsito e às ambulâncias, ainda que não identificados ostensivamente. 
-- No CNPJ da Polícia;
-- Viatura ostensiva deverá ter placa oficial;
-- Viatura reservada deverá ter placa particular, Art. 4º da IN DG/PF 203/2021;
+A Viatura deverá estar no CNPJ da UG;
+    - Viatura ostensiva deverá ter placa oficial;
+    - Viatura reservada deverá ter placa particular, Art. 4º da IN DG/PF 203/2021;
 
-Tombamento do bem;
 
-Inclusão na frota, conforme IN DG/PF 203/2021;
+
+
+## Inclusão na frota pela Unidade de Transporte
+7. Inclusão na frota, conforme IN DG/PF 203/2021;
   >Art. 31. Não podem ser objeto de manutenções preventiva e corretiva as viaturas pendentes de: 
   
   >I - regularização patrimonial na Polícia Federal; e 
