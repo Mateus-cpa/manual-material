@@ -6,6 +6,14 @@
 ## Solicitante
 > Caminho: sipac/Portal Administrativo/Requisições/Material/Almoxarifado/Cadastrar requisição
 
+Unidades bloqueadoas (sem recebimento de materiais permanentes após X dias) não têm permissão para solicitar materiais.
+
+### Projeto futuro
+Criar formulário de solicitação para compras futuras com:
+- Informações do material de consumo
+- Unidade de solicitação
+- Contato
+
 ## NUMAT
 > Caminho: sipac/Almoxarifado/Requisições/Atendimento de Requisições
 
