@@ -6,6 +6,31 @@
 ## Solicitante
 > Caminho: sipac/Portal Administrativo/Requisições/Material/Almoxarifado/Cadastrar requisição
 
+**!imagem**
+
+1. Solicitar CORRETAMENTE ao:
+- Almoxarifado de **municao** da SR/PF/**[SUA UG]** (Eletrônico): para requisição de munições gerenciadas pelos GATs
+- Almoxarifado da SR/PF/**[SUA UG]** (Eletrônico): para demais casos.
+
+2. Listar materiais da requisição
+
+
+3. Selecionar materiais da requisição
+
+
+4. Incluir material na requisição
+
+    - É possível solicitar vários materiais de almoxarifado na mesma Requisição, basta repetir os passos 2 a 4.
+
+5. Finalizar listagem
+Caso não precise incluir mais materiais, clique em continuar
+
+6. Finalizar Requisição.
+No cmapo **observações**:
+    - Sempre que se referir a um processo SEI, informe-o neste campo. 
+    - Se for retirado por outra pessoa, informe-o.
+    - Se for aplicável, informar data e horário de previsão para retirada.
+
 Unidades bloqueadoas (sem recebimento de materiais permanentes após X dias) não têm permissão para solicitar materiais.
 
 ### Projeto futuro
@@ -35,7 +60,7 @@ Criar formulário de solicitação para compras futuras com:
 8. Separar material ficisamente.
 
 ## Solicitante
-1. Verificar se a solicitação foi atendida,.
+1. Verificar se a solicitação foi atendida.
 2. Conferir e Retirar o material.
 3. Assinar recibo. 
 
