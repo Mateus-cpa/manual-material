@@ -14,8 +14,17 @@
 > **Caminho**: sipac/Patrimônio/Bens/Tombamento de Bem por Outros Tipos de Entrada
 - Tipo: Doação de outro Órgão Federal
 - Tipo de documento: ADM (se oriundo da RFB)
-- Valor: Deve ser o unitário. Se a divisão do total do documento dividido pela quantidade, realize duas entradas, uma com o valor restante, para que o valor total seja igual ao do documento de origem.
-> Observações: sempre citar o processo SEI.
+### Valor
+Deve ser o unitário. 
+
+Caso haja **transferência de valores no SIAFI**, deverá como foi lançado e refletir no eLog.
+
+Caso não haja, deverá lançar o **Valor Líquido**, se houver depreciação.
+
+Nos demais casos, se a divisão do total do documento dividido pela quantidade, realize duas entradas, uma com o valor restante, para que o valor total seja igual ao do documento de origem.
+### Observações
+sempre citar o processo SEI.
+
 
 > Gerar o Termo de Recebimento para anexar ao SEI.
 
