@@ -3,7 +3,7 @@
 ### [Acautelamento de bens](https://github.com/Mateus-cpa/manual-material/blob/main/roteiros/acautelamento.md)
 ### [Alienação de bens](https://github.com/Mateus-cpa/manual-material/blob/main/roteiros/alienacao.md)
 ### [Alteração de Bens](https://github.com/Mateus-cpa/manual-material/blob/main/roteiros/alteracao_bem.md)
-### [Apropriação Instrumentos de Cobrança no Comprasnet](https://github.com/Mateus-cpa/manual-material/blob/main/apropriacao_instr_cobranca_comprasnet.pdf)
+### [Apropriação Instrumentos de Cobrança no Comprasnet](https://github.com/Mateus-cpa/manual-material/blob/main/roteiros/apropriacao_instr_cobranca_comprasnet.pdf)
 ### [Cadastrar NE no eLog](https://github.com/Mateus-cpa/manual-material/blob/main/roteiros/cadastra_ne_elog.pdf)
 ### [Conciliação](https://github.com/Mateus-cpa/manual-material/blob/main/roteiros/conciliacao.md)
 ### [Configura impressora Zebra](https://github.com/Mateus-cpa/manual-material/blob/main/roteiros/configura_zebra.md)
