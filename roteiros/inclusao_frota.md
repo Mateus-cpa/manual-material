@@ -23,7 +23,7 @@ Conforme a IN DG/PF 203/2021, anexo V (fluxograma).
 
 ![Identificação do fornecedor](https://github.com/Mateus-cpa/manual-material/blob/main/img/01%20-%20identificação%20fornecedor-doador.PNG)
 
-![Dados do material](https://github.com/Mateus-cpa/manual-material/blob/main/img/02%20-%20Dados%20do%20material.PNG)
+![Dados do material](https://github.com/Mateus-cpa/manual-material/blob/main/img\02-%20%20Dados%20do%20material.PNG)
 
 ![Descritores encontrados](https://github.com/Mateus-cpa/manual-material/blob/main/img/03%20-%20Descritores%20encontrados.PNG)
 
@@ -33,7 +33,8 @@ Conforme a IN DG/PF 203/2021, anexo V (fluxograma).
 
 - Emitir Documento SIAFI
 
-![Emitir Documento SIAFI](https://github.com/Mateus-cpa/manual-material/blob/main/img/04%20-%20Emitir%20documento%20SIAFI.PNG)
+![Emitir Documento SIAFI](https://github.com/Mateus-cpa/manual-material/blob/main/img/04%20-%20Emitir%20documento%20Siafi.PNG)
+
 - Anotar número de NS gerado
 
 - Abrir SIAFI para conferir e imprimir NS
@@ -42,7 +43,9 @@ Conforme a IN DG/PF 203/2021, anexo V (fluxograma).
     - Botão Histórico
     - Abrir última versão
     - Botão Imprimir (Nota de Sistema nº da NS - PA xx)
+
 ![Emitir Documento SIAFI](https://github.com/Mateus-cpa/manual-material/blob/main/img/05%20-%20Comprovante%20de%20Registro%20SIAFI.PNG)
+
 - Movimentar para CONFREG/SR/PF/xx
     - Manter aberto na Unidade
 10. Movimentação para a Unidade Requisitante
