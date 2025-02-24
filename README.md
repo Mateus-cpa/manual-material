@@ -12,13 +12,13 @@ Trata-se de roteiro para Unidades de Material da Administração Pública Federa
 ### [Lançamentos SIAFI](https://lookerstudio.google.com/reporting/ffe08847-326c-4d18-8508-913ba6a8dfc6)
 
 ## Roteiros
-### [Acautelamento de bens](https://github.com/Mateus-cpa/manual-material/blob/main/roteiros/acautelamento.md)
+### [Acautelamento de bens](https://github.com/Mateus-cpa/manual-material/blob/main/roteiros/acautelamento.md) <mark> > Gestor Local</mark>
 ### [Alienação de bens](https://github.com/Mateus-cpa/manual-material/blob/main/roteiros/alienacao.md)
 ### [Alteração de Bens](https://github.com/Mateus-cpa/manual-material/blob/main/roteiros/alteracao_bem.md)
 ### [Apropriação Instrumentos de Cobrança no Comprasnet](https://github.com/Mateus-cpa/manual-material/blob/main/roteiros/apropriacao_instr_cobranca_comprasnet.pdf)
 ### [Cadastrar NE no eLog](https://github.com/Mateus-cpa/manual-material/blob/main/roteiros/cadastra_ne_elog.pdf)
 ### [Conciliação](https://github.com/Mateus-cpa/manual-material/blob/main/roteiros/conciliacao.md)
-### [Configura impressora Zebra](https://github.com/Mateus-cpa/manual-material/blob/main/roteiros/configura_zebra.md)
+### [Configura impressora Zebra](https://github.com/Mateus-cpa/manual-material/blob/main/roteiros/configura_zebra.md)  <mark> > Gestor Local</mark>
 ### [Desmembramento de Bens](https://github.com/Mateus-cpa/manual-material/blob/main/roteiros/desmembramento_bem.md)
 ### [Entendimentos Institucionais](https://github.com/Mateus-cpa/manual-material/blob/main/roteiros/entendimentos_institucionais.md)
 ### [Gestão de perfis SIGADMIN](https://github.com/Mateus-cpa/manual-material/blob/main/roteiros/gestao_perfis_sipac.md)
@@ -29,7 +29,7 @@ Trata-se de roteiro para Unidades de Material da Administração Pública Federa
 ### [Lançamentos Siafi](https://github.com/Mateus-cpa/manual-material/blob/main/roteiros/lancamentos_siafi.md)
 ### [Localidades eLog](https://github.com/Mateus-cpa/manual-material/blob/main/roteiros/localidades_elog.md)
 ### [Localização de Bens](https://github.com/Mateus-cpa/manual-material/blob/main/roteiros/localizacao_bens.md)
-### [Movimentação de bens](https://github.com/Mateus-cpa/manual-material/blob/main/roteiros/movimentacao.md)
+### [Movimentação de bens](https://github.com/Mateus-cpa/manual-material/blob/main/roteiros/movimentacao.md) <mark> > Gestor Local</mark>
 ### [Reclassificação de Bens](https://github.com/Mateus-cpa/manual-material/blob/main/roteiros/reclassificacao_bens.md)
 ### [Relatório de bens](https://github.com/Mateus-cpa/manual-material/blob/main/roteiros/relatorio_bens.md)
 ### [Requisição em Almoxarifado](https://github.com/Mateus-cpa/manual-material/blob/main/roteiros/requisicao_almox.md)
