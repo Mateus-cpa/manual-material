@@ -49,7 +49,7 @@ Os campos com * (estrela azul) são obrigatórios.
 - Botão **Assinar**: Dá oportunidade de o usuário da cautela assinar imediatamente, mesmo com outro usuário logado.
 
 # Devolver bem acautelado
-Com o Termo aberto, você pode devolver um bem que esteja na mesma unidade que você estiver logado clicando o ![[Icone de devolver](https://github.com/Mateus-cpa/manual-material/blob/main/img/07%20-%20Ícone%20de%20devolver.PNG)]
+Com o Termo aberto, você pode devolver um bem que esteja na mesma unidade que você estiver logado clicando o ![[Icone de devolver](https://github.com/Mateus-cpa/manual-material/blob/main/img/07%20-%20%C3%8Dcone%20de%20devolver.PNG)]
 
 Solicitar assinatura do Detentor, caso necessário.
 
