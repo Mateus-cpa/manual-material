@@ -20,7 +20,7 @@
 ### [Movimentação de bens](https://github.com/Mateus-cpa/manual-material/blob/main/roteiros/movimentacao.md) <mark> > Gestor Local</mark>
 ### [Reclassificação de Bens](https://github.com/Mateus-cpa/manual-material/blob/main/roteiros/reclassificacao_bens.md)
 ### [Relatório de bens](https://github.com/Mateus-cpa/manual-material/blob/main/roteiros/relatorio_bens.md)
-### [Requisição em Almoxarifado](https://github.com/Mateus-cpa/manual-material/blob/main/roteiros/requisicao_almox.md)
+### [Requisição em Almoxarifado](https://github.com/Mateus-cpa/manual-material/blob/main/roteiros/requisicao_almox.md) <mark> > Gestor Local</mark>
 ### [Viaturas](https://github.com/Mateus-cpa/manual-material/blob/main/roteiros/viaturas.md)
 
 [Retornar ao menu principal](https://github.com/Mateus-cpa/manual-material/blob/main/README.md)
