@@ -47,13 +47,17 @@ Liste os patrimônios conforme a necessidade
     ![Entrada de patrimônio](https://github.com/Mateus-cpa/manual-material/blob/main/img/07a%20-%20Entrada%20de%20patrim%C3%B4nio.PNG)
 
     b) Entrada por arquivo .txt com lista de patrimônios
+    
     ![Entrada de patrimônio por lote](https://github.com/Mateus-cpa/manual-material/blob/main/img/07b%20-%20Entrada%20de%20patrim%C3%B4nio%20por%20lote.PNG)
 
 8. Adicionar bens na guia de movimentação
 
+Adicione quantos bens precisar para a guia de movimentação.
+
 ![Adicionar bens na guia de movimentação](https://github.com/Mateus-cpa/manual-material/blob/main/img/08%20-%20Adicionar%20bens%20na%20guia%20de%20movimenta%C3%A7%C3%A3o.PNG)
 
 9. Concluir guia
+Após listar todos os bens à guia de movimentação, conclua com o botão "Confirmar".
 
 ![Concluir guia](https://github.com/Mateus-cpa/manual-material/blob/main/img/09%20-%20Concluir%20guia.PNG)
 
@@ -64,13 +68,18 @@ Após o envio, aparece um botão de recebimento imediato, onde é possível o se
 
 10. Abrir o menu Receber bens
 
+>Caminho: sipac/Patrimônio/Gerência/Movimentações/Receber bens.
+
+O número indica a quantidade de bens a receber.
+
 ![Abrir o menu Receber bens](https://github.com/Mateus-cpa/manual-material/blob/main/img/10%20-%20Abrir%20o%20menu%20Receber%20bens.PNG)
 
 11. Selecionar guia de recebimento
 
 ![Selecionar guia de recebimento](https://github.com/Mateus-cpa/manual-material/blob/main/img/11%20-%20Selecionar%20guia%20de%20recebimento.PNG)
 
-# Validação (quando movimentação entre UGs)
+# Unidade de Material: Validação (quando movimentação entre UGs)
+
 Cadastrar Documento Hábil no Siafi. Através da integração, ele envia o DH Lançamento Patrimonial (PA). 
 - IMB046 - Transferência/doação de bens móveis - sem colocar bem em trânsito (valor bruto)
 - IMB044 - Transf de deprec/exaust/amortz acumulada (depreciação)
