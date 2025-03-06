@@ -4,59 +4,59 @@
 # Enviar bens
 Para realizar as atividades deste menu, é necessário possuir o perfil de GESTOR LOCAL ou ser Chefe ou substituto de uma Unidade Organizacional.
 
-1. Entrar no sistema patrimonial
+## 1. Entrar no sistema patrimonial
 
 Realizar entrada no sistema patrimonial [SIPAC](https://sistemas.dpf.gov.br/sipac/)
 
 ![Entrar no sistema patrimônio](https://github.com/Mateus-cpa/manual-material/blob/main/img/01%20-%20Entrar%20no%20sistema%20eLog.PNG)
 
-2. Entrar no menu Gerência/Enviar Bens
+## 2. Entrar no menu Gerência/Enviar Bens
 
 ![Entrar em Enviar Bens](https://github.com/Mateus-cpa/manual-material/blob/main/img/02%20-%20Entrar%20no%20menu%20Enviar%20Bens.PNG)
 
-3. Localizar Unidade de Destino
+## 3. Localizar Unidade de Destino
 
 Clique na lupa para abrir o quadro de pesquisa das Unidades da PF.
 
 ![Localizar Unidade de Destino](https://github.com/Mateus-cpa/manual-material/blob/main/img/03%20-%20Localizar%20Unidade%20de%20Destino.PNG)
 
-4. Transportar a Unidade para a guia de envio de materiais
+## 4. Transportar a Unidade para a guia de envio de materiais
 
 Clique na seta verde para selecionar a Unidade Organizacional para onde será enviada.
 
 ![Transportar a Unidade para a guia de envio de materiais](https://github.com/Mateus-cpa/manual-material/blob/main/img/04%20-%20Transportar%20a%20Unidade%20para%20a%20guia%20de%20envio%20de%20materiais.PNG)
 
-5. Selecionar a localidade de destino
+## 5. Selecionar a localidade de destino
 
 Selecione uma sala de destino. Esta etapa é importante, pois caso contrário o a lista de bens será transferido para o "limbo" dentro da Unidade. Estes bens não saem em todos relatórios da localidade.
 
 ![Selecionar a localidade de destino](https://github.com/Mateus-cpa/manual-material/blob/main/img/05%20-%20Selecionar%20a%20loclaidade%20de%20destino.PNG)
 
-6. Adicionar descrição de movimentação
+## 6. Adicionar descrição de movimentação
 
 SEMPRE que possível informe o processo SEI relacionado à movimentação.
 
 ![Adicionar descrição de movimentação](https://github.com/Mateus-cpa/manual-material/blob/main/img/06%20-%20Adicionar%20descri%C3%A7%C3%A3o%20de%20movimenta%C3%A7%C3%A3o.PNG)
 
-7. Entrada de patrimônio
+## 7. Entrada de patrimônio
 
 Liste os patrimônios conforme a necessidade
     
-    a) Entrada por número de patrimônio ou faixa de patrimônios
+a) Entrada por número de patrimônio ou faixa de patrimônios
 
-    ![Entrada de patrimônio](https://github.com/Mateus-cpa/manual-material/blob/main/img/07a%20-%20Entrada%20de%20patrim%C3%B4nio.PNG)
+![Entrada de patrimônio](https://github.com/Mateus-cpa/manual-material/blob/main/img/07a%20-%20Entrada%20de%20patrim%C3%B4nio.PNG)
 
-    b) Entrada por arquivo .txt com lista de patrimônios
-    
-    ![Entrada de patrimônio por lote](https://github.com/Mateus-cpa/manual-material/blob/main/img/07b%20-%20Entrada%20de%20patrim%C3%B4nio%20por%20lote.PNG)
+b) Entrada por arquivo .txt com lista de patrimônios
 
-8. Adicionar bens na guia de movimentação
+![Entrada de patrimônio por lote](https://github.com/Mateus-cpa/manual-material/blob/main/img/07b%20-%20Entrada%20de%20patrim%C3%B4nio%20por%20lote.PNG)
+
+## 8. Adicionar bens na guia de movimentação
 
 Adicione quantos bens precisar para a guia de movimentação.
 
 ![Adicionar bens na guia de movimentação](https://github.com/Mateus-cpa/manual-material/blob/main/img/08%20-%20Adicionar%20bens%20na%20guia%20de%20movimenta%C3%A7%C3%A3o.PNG)
 
-9. Concluir guia
+## 9. Concluir guia
 Após listar todos os bens à guia de movimentação, conclua com o botão "Confirmar".
 
 ![Concluir guia](https://github.com/Mateus-cpa/manual-material/blob/main/img/09%20-%20Concluir%20guia.PNG)
@@ -66,7 +66,7 @@ Após o envio, aparece um botão de recebimento imediato, onde é possível o se
 
 # Receber Bens
 
-10. Abrir o menu Receber bens
+## 10. Abrir o menu Receber bens
 
 >Caminho: sipac/Patrimônio/Gerência/Movimentações/Receber bens.
 
@@ -74,7 +74,7 @@ O número indica a quantidade de bens a receber.
 
 ![Abrir o menu Receber bens](https://github.com/Mateus-cpa/manual-material/blob/main/img/10%20-%20Abrir%20o%20menu%20Receber%20bens.PNG)
 
-11. Selecionar guia de recebimento
+## 11. Selecionar guia de recebimento
 
 ![Selecionar guia de recebimento](https://github.com/Mateus-cpa/manual-material/blob/main/img/11%20-%20Selecionar%20guia%20de%20recebimento.PNG)
 
