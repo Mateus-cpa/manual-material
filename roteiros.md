@@ -7,6 +7,8 @@
 ### [Cadastrar NE no eLog](https://github.com/Mateus-cpa/manual-material/blob/main/roteiros/cadastra_ne_elog.pdf)
 ### [Conciliação](https://github.com/Mateus-cpa/manual-material/blob/main/roteiros/conciliacao.md)
 ### [Configura impressora Zebra](https://github.com/Mateus-cpa/manual-material/blob/main/roteiros/configura_zebra.md) <mark> > Gestor Local</mark>
+
+### [Desfazimento de bens](https://github.com/Mateus-cpa/manual-material/blob/main/roteiros/desfazimento.md)  <mark> > Comissão de Avaliação</mark>
 ### [Desmembramento de Bens](https://github.com/Mateus-cpa/manual-material/blob/main/roteiros/desmembramento_bem.md)
 ### [Entendimentos Institucionais](https://github.com/Mateus-cpa/manual-material/blob/main/roteiros/entendimentos_institucionais.md)
 ### [Gestão de perfis SIGADMIN](https://github.com/Mateus-cpa/manual-material/blob/main/roteiros/gestao_perfis_sipac.md)
