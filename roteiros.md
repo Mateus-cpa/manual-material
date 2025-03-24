@@ -4,6 +4,7 @@
 ### [Alienação de bens](https://github.com/Mateus-cpa/manual-material/blob/main/roteiros/alienacao.md)
 ### [Alteração de Bens](https://github.com/Mateus-cpa/manual-material/blob/main/roteiros/alteracao_bem.md)
 ### [Apropriação Instrumentos de Cobrança no Comprasnet](https://github.com/Mateus-cpa/manual-material/blob/main/roteiros/apropriacao_instr_cobranca_comprasnet.pdf)
+### [Cadastro de Imóveis - SPIUnet](https://github.com/Mateus-cpa/manual-material/blob/main/roteiros/cadastro_imoveis.md)
 ### [Cadastrar NE no eLog](https://github.com/Mateus-cpa/manual-material/blob/main/roteiros/cadastra_ne_elog.pdf)
 ### [Conciliação](https://github.com/Mateus-cpa/manual-material/blob/main/roteiros/conciliacao.md)
 ### [Configura impressora Zebra](https://github.com/Mateus-cpa/manual-material/blob/main/roteiros/configura_zebra.md) <mark> > Gestor Local</mark>
