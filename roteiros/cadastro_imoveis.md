@@ -33,7 +33,7 @@ No Laudo, há a seção CONCLUSÃO onde o perito atribui os novos valores ao im�
     - Lançar o Valor do Terreno (R$)
     - Quando se preenche um, o outro é preenchido automaticamente após a gravação dos dados.
 
-![Dados do Terreno](https://github.com/Mateus-cpa/manual-material/blob/main/img/2%20-%20inserir%20RIP%20Im%C3%B3vel.PNG)
+![Dados do Terreno](https://github.com/Mateus-cpa/manual-material/blob/main/img/3%20-%20Dados%20do%20terreno.PNG)
 
 5. Lançar Data Avaliação: data do laudo.
     - Nível de Rigor é sempre Rigorosa (6 meses), conforme Portaria Conjunta 010/2023 - SPU/STN.
@@ -88,10 +88,11 @@ No Laudo, há a seção CONCLUSÃO onde o perito atribui os novos valores ao im�
 ![Saldo conta controle](https://github.com/Mateus-cpa/manual-material/blob/main/img/10%20-%20Saldo%20conta%20controle.PNG)
 
 ## Lançamento no SIAFI
-26. Ratificar o valor no SIAFI utilizando o tipo PA:
+26. Ratificar o valor no SIAFI utilizando o INCDH (incluir documento hábil) tipo PA:
     - Situação IMB134
     - Conta corrente: RIP utilização (não do Imóvel)
 
+![INCDH](https://github.com/Mateus-cpa/manual-material/blob/main/img/11%20-%20lan%C3%A7ar%20PA%20siafi.PNG)
 
 [Retornar para Roteiros](https://github.com/Mateus-cpa/manual-material/blob/main/roteiros.md)
 
