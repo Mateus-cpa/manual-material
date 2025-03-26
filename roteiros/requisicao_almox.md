@@ -26,7 +26,7 @@
 Caso não precise incluir mais materiais, clique em continuar
 
 6. Finalizar Requisição.
-No cmapo **observações**:
+No campo **observações**:
     - Sempre que se referir a um processo SEI, informe-o neste campo. 
     - Se for retirado por outra pessoa, informe-o.
     - Se for aplicável, informar data e horário de previsão para retirada.
