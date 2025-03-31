@@ -94,6 +94,12 @@ No Laudo, há a seção CONCLUSÃO onde o perito atribui os novos valores ao im�
 
 ![INCDH](https://github.com/Mateus-cpa/manual-material/blob/main/img/11%20-%20lan%C3%A7ar%20PA%20siafi.PNG)
 
+
+27. Evidenciar o histórico mensal das reavaliações utilizando o INCDH tipo PA:
+    - Se saldo na conta 899912403
+    - Situação LDV147 - Registro de Baixa do Controle da Reavaliação de Bens Imóveis - RIP - Saldo credor (ou LDV146 para saldo devedor), conforme Macrofunção 02.10.06, item 4.3.4 e subitem 4.3.5.2
+    
+
 [Retornar para Roteiros](https://github.com/Mateus-cpa/manual-material/blob/main/roteiros.md)
 
 [Retornar ao menu principal](https://github.com/Mateus-cpa/manual-material/blob/main/README.md)
