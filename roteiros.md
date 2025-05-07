@@ -22,6 +22,7 @@
 ### [Localização de Bens](https://github.com/Mateus-cpa/manual-material/blob/main/roteiros/localizacao_bens.md)
 ### [Movimentação de bens](https://github.com/Mateus-cpa/manual-material/blob/main/roteiros/movimentacao.md) <mark> > Gestor Local</mark>
 ### [Reclassificação de Bens](https://github.com/Mateus-cpa/manual-material/blob/main/roteiros/reclassificacao_bens.md)
+### [Regularizações contábeis](https://github.com/Mateus-cpa/manual-material/blob/main/roteiros/Regulariza%C3%A7%C3%B5es_NUMAT.pdf)
 ### [Relatório de bens](https://github.com/Mateus-cpa/manual-material/blob/main/roteiros/relatorio_bens.md)
 ### [Requisição em Almoxarifado](https://github.com/Mateus-cpa/manual-material/blob/main/roteiros/requisicao_almox.md) <mark> > Gestor Local</mark>
 ### [Viaturas](https://github.com/Mateus-cpa/manual-material/blob/main/roteiros/viaturas.md)
