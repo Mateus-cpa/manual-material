@@ -37,6 +37,7 @@
 - [Ofício Circular 1 (27075896)](https://sei4.pf.gov.br/sei/controlador.php?acao=procedimento_trabalhar&acao_origem=protocolo_pesquisa_rapida&id_protocolo=32579536&infra_sistema=100000100&infra_unidade_atual=120005990&infra_hash=e5c1d998f34d2c092c566c34bca2f176e15add130084a3f0672700882371ec9a) - Sobre destinação TETRAPOL e materiais de comunicação.
 - [Despacho 36254144 - DMAT/CGAD/DLOG](https://sei4.pf.gov.br/sei/controlador.php?acao=procedimento_trabalhar&acao_origem=protocolo_pesquisa_rapida&id_protocolo=49238413&infra_sistema=100000100&infra_unidade_atual=120005990&infra_hash=018fc97d6b9766ad691959527367f2c0f741794266e381a6c947b67d81544e46) - reclassificação como consumo celulares e tablets
 - [Ofício Circular 4 DLOG/PF (15745077)](https://sei4.pf.gov.br/sei/controlador.php?acao=procedimento_trabalhar&acao_origem=protocolo_pesquisa_rapida&id_protocolo=19619801&infra_sistema=100000100&infra_unidade_atual=120005990&infra_hash=b0b80c6666082f4aced99190d7c8ea1d18f0c7217827f5338d6dfb85a29bd59c) - Classificação Contábil de Bens - Aparelhos Celulares, Smartwatches e HD's Externos em uso polícia
+- [Portaria 19.017/2024](https://pfgovbr.sharepoint.com/sites/intranet/DLOG/LISTA%20RECLASSIFICA%C3%87%C3%83O%20DE%20BENS.pdf) - Sugestão DMAT de reclassificação de diversos materiais no eLog
 
 
 # Manuais e Roteiros
