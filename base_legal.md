@@ -11,7 +11,6 @@
 - [Decreto Nº 99.658/1990](https://www.planalto.gov.br/ccivil_03/decreto/antigos/D99658.htmimpressao.htm) - Regulamenta, no âmbito da Administração Pública Federal, o reaproveitamento, a movimentação, a alienação e outras formas de desfazimento de material.
 - [DECRETO Nº 9.764/2019](http://legislacao.planalto.gov.br/legisla/legislacao.nsf/Viw_Identificacao/DEC%209.764-2019?OpenDocument) - Dispõe sobre o recebimento de doações de bens móveis e de serviços de pessoas físicas ou jurídicas de direito privado pelos órgãos e pelas entidades da administração pública federal direta, autárquica e fundacional.
 - [Decreto 10.340/2020](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2020/decreto/d10540.htm#:~:text=DECRETO%20N%C2%BA%2010.540%2C%20DE%205,Or%C3%A7ament%C3%A1ria%2C%20Administra%C3%A7%C3%A3o%20Financeira%20e%20Controle.) - Dispõe sobre o padrão mínimo de qualidade do Sistema Único e Integrado de Execução Orçamentária, Administração Financeira e Controle.
-- [Decreto 10.667/2021](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/decreto/d10667.htm) - 
 - [Lei 14133/2021](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14133.htm) - Lei de Licitações e Contratos Administrativos.
 
 # Normas gerais do Executivo
