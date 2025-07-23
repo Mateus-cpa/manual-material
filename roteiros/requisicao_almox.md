@@ -64,6 +64,9 @@ Criar formulário de solicitação para compras futuras com:
 ![DH_dados_basicos](https://github.com/Mateus-cpa/manual-material/blob/main/img/atend_requisicao/dh_dados_basicos.png)
 
 ![DH_outros_lancamentos](https://github.com/Mateus-cpa/manual-material/blob/main/img/atend_requisicao/dh_outros_lancamentos.png)
+
+![DH_custos](https://github.com/Mateus-cpa/manual-material/blob/main/img/atend_requisicao/DH_custos.png)
+
 - 7.6. Registrar o nº da PA no documento de Requisição
 8. Separar material ficisamente.
 
