@@ -43,8 +43,12 @@ Criar formulário de solicitação para compras futuras com:
 > Caminho: sipac/Almoxarifado/Requisições/Atendimento de Requisições
 
 1. Clicar em atender requisição daquela a ser atendida.
+
 2. Informar a quantidade de saída de cada item solicitado.
-3. Após informar todas quantidades atendidas, clicar no botÂo "Finalizar Atendimento".
+
+![Atendimento de requisição](https://github.com/Mateus-cpa/manual-material/blob/main/img/atend_requisicao/atendimento_req.png)
+
+3. Após informar todas quantidades atendidas, clicar no botão "Finalizar Atendimento".
 4. Informar Servidor Recebedor.
 5. Imprimir documento de Requisição de Material.
 6. Realizar Lançamento no SIAFI.
@@ -56,6 +60,10 @@ Criar formulário de solicitação para compras futuras com:
 - 7.3. Tipo: `PA`, 
 - 7.4. Data de Emissão De: `data atual` Até: `data atual`
 - 7.5. Verificar se estão corretos os dados lançados, tais quais: Observação,  cada Código no eLog e cada Situação ETQ001 em Outros Lançamentos do SIAFI.
+
+![DH_dados_basicos](https://github.com/Mateus-cpa/manual-material/blob/main/img/atend_requisicao/dh_dados_basicos.png)
+
+![DH_outros_lancamentos](https://github.com/Mateus-cpa/manual-material/blob/main/img/atend_requisicao/dh_outros_lancamentos.png)
 - 7.6. Registrar o nº da PA no documento de Requisição
 8. Separar material ficisamente.
 
