@@ -6,7 +6,8 @@ Para realizar as atividades deste menu, é necessário possuir o perfil de GESTO
 
 ## 1. Entrar no sistema patrimonial
 
-Realizar entrada no sistema patrimonial [SIPAC](https://sistemas.dpf.gov.br/sipac/)
+Realizar entrada no sistema patrimonial 
+![SIPAC](https://sistemas.dpf.gov.br/sipac/)
 
 ![Entrar no sistema patrimônio](https://github.com/Mateus-cpa/manual-material/blob/main/img/01%20-%20Entrar%20no%20sistema%20eLog.PNG)
 
