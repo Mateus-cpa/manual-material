@@ -26,7 +26,7 @@ Se o painel não patrimonial não aparecer para o seu perfil
 
 ## Solicitação de Acesso
 
-Se não visualizar o paineo, você pode solicitar através do DIGED - Sistema Integrado de Gestão de Dados:
+Se não visualizar o painel, você pode solicitar através do [DIGED - Sistema Integrado de Gestão de Dados](https://apps.pf.gov.br/r/siged/siged/):
 
 ![sistema_acesso](https://github.com/Mateus-cpa/manual-material/blob/main/img/bi/diged1.jpg)
 
