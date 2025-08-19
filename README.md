@@ -13,6 +13,7 @@ Trata-se de roteiro para Unidades de Material da Administração Pública Federa
 
 ## Roteiros
 ### [Acautelamento de bens](https://github.com/Mateus-cpa/manual-material/blob/main/roteiros/acautelamento.md) <mark> > Gestor Local</mark>
+### [Acesso ao Painel gerencial (SRPR) BI](https://github.com/Mateus-cpa/manual-material/blob/main/roteiros/bi.md)
 ### [Alienação de bens](https://github.com/Mateus-cpa/manual-material/blob/main/roteiros/alienacao.md)
 ### [Alteração de Bens](https://github.com/Mateus-cpa/manual-material/blob/main/roteiros/alteracao_bem.md)
 ### [Apropriação Instrumentos de Cobrança no Comprasnet](https://github.com/Mateus-cpa/manual-material/blob/main/roteiros/apropriacao_instr_cobranca_comprasnet.pdf)
