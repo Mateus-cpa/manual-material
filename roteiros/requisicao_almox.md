@@ -14,6 +14,8 @@
 
 2. Listar materiais da requisição
 
+- Para inclusão de quantitativo de material, utilize as teclas do teclado acima da letra, não as da lateral direita do teclado.
+
 
 3. Selecionar materiais da requisição
 
