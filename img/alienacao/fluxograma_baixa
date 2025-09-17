@@ -1,0 +1,20 @@
+digraph Fluxograma {
+	rankdir=TB size=8
+	A [label="Unidade Patrimonial
+preenche planilha do MCom
+e anexa ao processo" fillcolor=lightblue shape=box style="rounded,filled"]
+	B [label="Núcleo de Tecnologia
+analisa interesse em manter
+materiais no acervo" fillcolor=lightgreen shape=box style="rounded,filled"]
+	C [label="Materiais com HD ou memória:
+abertura de chamado para
+limpeza de dados" fillcolor=lightyellow shape=box style="rounded,filled"]
+	D [label="Comissão classifica os bens
+(Decreto 9.373/2018)" fillcolor=orange shape=box style="rounded,filled"]
+	E [label="Recolhimento dos
+materiais inservíveis" fillcolor=lightcoral shape=box style="rounded,filled"]
+	A -> B
+	B -> C
+	C -> D
+	D -> E
+}
