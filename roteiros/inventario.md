@@ -50,11 +50,12 @@ Formar comissão com no mínimo:
     - Entrar em contato com Unidade de Material e Unidades patrimoniais;
     - Gera processos e emite documentos às Unidades Patimoniais;
     - Além das atribuições constantes da IN.
-- **Analista de dados**: Servidor com experiencia de inventário e material.
+- **Analista(s) de dados**: Servidor com experiência em inventário e material.
     - Realiza a análise dos dados de levantamento;
     - Acompanha localidades inventariadas;
     - Informa Presidente ao encerrar levantamento para fim da fase de levantamento físico;
-    - Emitir etiquetas, quando não houver impressora portátil.
+    - Emitir etiquetas, quando não houver impressora portátil;
+    - Idealmente subdividir tarefa de geração e documento de aplicação de etiquetas se mais que 3 equipes.
 - **Equipe de levantamento in loco**: Servidor com aptidão física e conhecimento de patrimônio e da ferramenta de levantamento selecionada. Preferencialmente, formando duplas para divisão da tarefa de catalogação e conferência do material.
     - Realizar o levantamento in loco;
     - Solicitar geração de etiquetas, quando não disponibilizada impressoa portátil;
@@ -62,10 +63,32 @@ Formar comissão com no mínimo:
     - Relatar intercorrências.
 
 ## Fases do Inventário
-Após a instituição da Comissão.
+Após a instituição da Comissão:
 
 ### Mapeamento das localidades
+Utilizar a ferramenta de Relatório de Localidades no eLog para conferir se elas existem e informar à Unidade de MAterial par acriação e inativação.
+
 ### Planejamento do cronograma
+Considerando o quantitativo de material, a complexidade das localidades e as ferramentas utilizadas, sugere-se um levantamento médio de bens/dia/equipe conforme a tecnologia utilizada:
+- **RFID**: 500?
+- **Planilha** ou equipamento de leitura de código: 300
+- **Listagem física de material**: 100-150
+
+> Deverá ser avaliado se seguirá processo apartado o levantamento de Armamentos, Viaturas, Softwares, Almoxarifado e Imóveis.
+
+### Abertura dos trabalhos
+- Presidente dará publicidade e ciência da equipe ao cronograma, pirnicpalmente com relação às primeira sunidades a serem inventariadas;
+- Se necessário, alinhamento da equipe quanto aos padrões de levantamento, inclusive a metodologia e a tecnologia a serem utilizados.
+- Emissão dos processos de abertura para as Unidades Patrimoniais (e outros procesos considerados relevantes)
+
+### Levantamento in loco
+
+### Relatório de bens não inventaridos
+
+### Termo de Responsabilidade
+
+### Relatório final
+
 
 
 [Retornar para Roteiros](https://github.com/Mateus-cpa/manual-material/blob/main/roteiros.md)
