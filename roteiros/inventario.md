@@ -1,9 +1,8 @@
 [Retornar ao menu principal](https://github.com/Mateus-cpa/manual-material/blob/main/README.md)
 
 [Retornar para Roteiros](https://github.com/Mateus-cpa/manual-material/blob/main/roteiros.md)
-# Inventário
-## Inventário Anual
-Conforme a IN DG 181/2020:
+# Inventário - IN DG 181/2020
+## Competências da Unidade de Material:
 > Art. 8º Compete à unidade de material: 
 
 >I - propor cronograma de passagem da Comissão de Inventário junto às unidades, para homologação e ampla divulgação pelo ordenador de despesas; 
@@ -21,6 +20,7 @@ Conforme a IN DG 181/2020:
 >b) às unidades organizacionais para o saneamento de suas cargas patrimoniais; e 
 
 >VI - disponibilizar arquivos e relatórios acerca dos bens patrimoniais existentes na unidade gestora para, conforme a necessidade, verificação física pela Comissão de Inventário e pelas unidades organizacionais.
+
 ## Inventário de passagem de carga
 Conforme preconiza a IN DG 181:
 > Art. 31. No ato de designação de chefia, deverá ser incluído nos autos o Termo de Responsabilidade contendo: 
@@ -40,6 +40,33 @@ Conforme preconiza a IN DG 181:
 >III - encaminhar o arquivo para a unidade de material da unidade gestora para processamento. 
 
 >Art. 34. A não realização de inventário de passagem de carga ensejará em aceitação tácita da carga patrimonial pelo responsável empossado no prazo de dez dias a contar da assinatura do termo de posse.
+
+# O Processo do inventário
+## Formação da Equipe de inventário
+
+Formar comissão com no mínimo:
+- **Presidente**: obrigatoriamente lotado na UG, preferencialmente com formação de Curso de Presidente de Inventário pela DMAT E DIREN. 
+    - Acompanhar cronograma;
+    - Entrar em contato com Unidade de Material e Unidades patrimoniais;
+    - Gera processos e emite documentos às Unidades Patimoniais;
+    - Além das atribuições constantes da IN.
+- **Analista de dados**: Servidor com experiencia de inventário e material.
+    - Realiza a análise dos dados de levantamento;
+    - Acompanha localidades inventariadas;
+    - Informa Presidente ao encerrar levantamento para fim da fase de levantamento físico;
+    - Emitir etiquetas, quando não houver impressora portátil.
+- **Equipe de levantamento in loco**: Servidor com aptidão física e conhecimento de patrimônio e da ferramenta de levantamento selecionada. Preferencialmente, formando duplas para divisão da tarefa de catalogação e conferência do material.
+    - Realizar o levantamento in loco;
+    - Solicitar geração de etiquetas, quando não disponibilizada impressoa portátil;
+    - Aplicar etiquetas;
+    - Relatar intercorrências.
+
+## Fases do Inventário
+Após a instituição da Comissão.
+
+### Mapeamento das localidades
+### Planejamento do cronograma
+
 
 [Retornar para Roteiros](https://github.com/Mateus-cpa/manual-material/blob/main/roteiros.md)
 
