@@ -77,11 +77,18 @@ Considerando o quantitativo de material, a complexidade das localidades e as fer
 > Deverá ser avaliado se seguirá processo apartado o levantamento de Armamentos, Viaturas, Softwares, Almoxarifado e Imóveis.
 
 ### Abertura dos trabalhos
-- Presidente dará publicidade e ciência da equipe ao cronograma, pirnicpalmente com relação às primeira sunidades a serem inventariadas;
-- Se necessário, alinhamento da equipe quanto aos padrões de levantamento, inclusive a metodologia e a tecnologia a serem utilizados.
-- Emissão dos processos de abertura para as Unidades Patrimoniais (e outros procesos considerados relevantes)
+- Presidente dará publicidade e ciência da equipe ao cronograma, principalmente com relação às primeiras unidades a serem inventariadas;
+- Se necessário, alinhamento da equipe quanto aos padrões de levantamento, inclusive a:
+    - metodologia aplicada;
+    - política regional de alocação dos bens acautelados (sala NTI, NUMAT ou nas próprias unidades) e das armas;
+    - a tecnologia a serem utilizados.
+- Emissão dos processos de abertura para as Unidades Patrimoniais (e outros procesos considerados relevantes), contendo: 
+    - a portaria de nomeação da comissão;
+    - os procedimentos a serem executados;
+    - as datas previstas para levantamento.
 
 ### Levantamento in loco
+- Aplicar metodologia adotada pela comissão
 
 ### Relatório de bens não inventaridos
 
