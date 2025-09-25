@@ -83,18 +83,47 @@ Considerando o quantitativo de material, a complexidade das localidades e as fer
     - política regional de alocação dos bens acautelados (sala NTI, NUMAT ou nas próprias unidades) e das armas;
     - a tecnologia a serem utilizados.
 - Emissão dos processos de abertura para as Unidades Patrimoniais (e outros procesos considerados relevantes), contendo: 
-    - a portaria de nomeação da comissão;
+    - a Portaria de Nomeação da Comissão;
     - os procedimentos a serem executados;
     - as datas previstas para levantamento.
 
-### Levantamento in loco
-- Aplicar metodologia adotada pela comissão
+### Levantamento 'in loco'
+- Aplicar metodologia adotada pela comissão;
+- Para cada localidade:
+    - Observar se a etiqueta aplicada corresponde ao material físico;
+    - Registrar observações de correção ou inclusão de nº serial ou intercorrências (sem tombo, duplicado, alienado, em outra UG);
+    - Elencar bens indicados pela unidade patrimonial como inservíveis;
+    - Consultar bens acautelados pelos servidores da localidade (quando adotada a metodologia de alocação dos bens acuatelados nas unidades patrimoniais);
+    - Informar bens não inventariados na localidade a fim de saneamento prévio; 
+- Reportar ao Presidente da Comissão quaisquer dificuldades.
+
+### Analisar inconsistências
+No caso de localização de bens:
+- SEM TOMBAMENTO: 
+    - Consultar se não é um bem particular;
+    - Em caso negativo, identificar da forma mais precisa possível (denominação, marca, modelo, serial) para posterior avaliação.
+- ALIENADO: Identificar se os dados refletem o bem.
+    -Em caso negativo, realizar os mesmos procedimentos de bens sem tombamento. 
+    - Em caso positivo, se necessário, anotar observação do status do bem;
+- DUPLICADOS: Se o sistema registrar o bem, adicione uma observação para o analista avaliar a duplicidade.
+### Cadastrar levantamento
+Registrar o levantamento utilizando arquivo .txt
 
 ### Relatório de bens não inventaridos
+Ao finalizar o levantamento de todas loclaidades da Unidade Patrimonial, caso ainda haja bens não inventariados:
+- Emitir RELATÓRIO DE BENS NÃO INVENTARIADOS;
+- Despachar estabelecando prazo para informação do paradeiro dos bens.
+
+Ao receber a resposta de Unidade com localização dos bens:
+- Complementar levantamento.
 
 ### Termo de Responsabilidade
+Quando não houver bens a inventariar, emitir TERMO DE RESPONSABILIDADE para assinatura ou despacho de concordância.
+
+Se ainda houver e o procesos não for respondido, emitir TERMO DE RESPONSABILIDADE constando os bens não inventariados anexos.
 
 ### Relatório final
+
 
 
 
