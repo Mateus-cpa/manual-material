@@ -65,17 +65,6 @@ Formar comissão com no mínimo:
 ## Fases do Inventário
 Após a instituição da Comissão:
 
-### Mapeamento das localidades
-Utilizar a ferramenta de Relatório de Localidades no eLog para conferir se elas existem e informar à Unidade de MAterial par acriação e inativação.
-
-### Planejamento do cronograma
-Considerando o quantitativo de material, a complexidade das localidades e as ferramentas utilizadas, sugere-se um levantamento médio de bens/dia/equipe conforme a tecnologia utilizada:
-- **RFID**: 500?
-- **Planilha** ou equipamento de leitura de código: 300
-- **Listagem física de material**: 100-150
-
-> Deverá ser avaliado se seguirá processo apartado o levantamento de Armamentos, Viaturas, Softwares, Almoxarifado e Imóveis.
-
 ### Abertura dos trabalhos
 - Presidente dará publicidade e ciência da equipe ao cronograma, principalmente com relação às primeiras unidades a serem inventariadas;
 - Se necessário, alinhamento da equipe quanto aos padrões de levantamento, inclusive a:
@@ -86,6 +75,31 @@ Considerando o quantitativo de material, a complexidade das localidades e as fer
     - a Portaria de Nomeação da Comissão;
     - os procedimentos a serem executados;
     - as datas previstas para levantamento.
+
+### Mapeamento das localidades
+Utilizar a ferramenta de Relatório de Localidades no eLog para conferir se elas existem e informar à Unidade de Material para 
+- criação, 
+- renomeação ou
+- transferência 
+- inativação.
+
+Na SR/PF/PR, foi adotado o seguinte modelo:
+```
+UNIDADE PATRIMONIAL - SALA {ou DEPOSITO/LABORATORIO/...} NNN - NOME DA LOCALIDADE (opcional) - CÓDIGO ELOG DA UNIDADE PATRIMONIAL
+```
+```
+Exemplo: LDA - SALA 123 - PROTOCOLO - 1872
+```
+
+[Atualizar as localidades](https://github.com/Mateus-cpa/manual-material/blob/main/roteiros/localidades_elog.md) conforme utilizando o roteiro.
+
+### Planejamento do cronograma
+Considerando o quantitativo de material, a complexidade das localidades e as ferramentas utilizadas, sugere-se um levantamento médio de bens/dia/equipe conforme a tecnologia utilizada:
+- **RFID**: 500?
+- **Planilha** ou equipamento de leitura de código: 300
+- **Listagem física de material**: 100-150
+
+> Deverá ser avaliado se seguirá processo apartado o levantamento de Armamentos, Viaturas, Softwares, Almoxarifado e Imóveis.
 
 ### Levantamento 'in loco'
 - Aplicar metodologia adotada pela comissão;
@@ -106,11 +120,65 @@ No caso de localização de bens:
     -Em caso negativo, realizar os mesmos procedimentos de bens sem tombamento. 
     - Em caso positivo, se necessário, anotar observação do status do bem;
 - DUPLICADOS: Se o sistema registrar o bem, adicione uma observação para o analista avaliar a duplicidade.
+
+### Preparar os arquivos para levantamento
+Salvar os arquivos de texto de forma acessível para carregar no elog.
+
+Cada arquivo deverá contar APENAS números de tombamento, um em cada linha conforme exemplo abaixo:
+
+```
+2010234324
+2012011324
+2020004127
+```
+
+Caso haja algo diferente de tombamento ou linha me branco, o eLog retornará erro ao carregar.
+
 ### Cadastrar levantamento
+
+![Menu - Cadastrar levantamento](https://github.com/Mateus-cpa/manual-material/blob/main/img/inventario/1%20-%20acesso%20menu.png)
+
+Informar Unidade Patirmonial vinculada ao levantamento
+
+![Informar unidade](https://github.com/Mateus-cpa/manual-material/blob/main/img/inventario/2%20-%20informa%20unidade%20patrimonial.png)
+
 Registrar o levantamento utilizando arquivo .txt
 
+![Tela de cadastro](https://github.com/Mateus-cpa/manual-material/blob/main/img/inventario/3%20-%20informa%20os%20dados%20do%20levantamento.png)
+
+Por questões de segurança, compare o arquivo de texto com o levantamento realizado
+
+![Compara txt e levantamento](https://github.com/Mateus-cpa/manual-material/blob/main/roteiros/localidades_elog.md)
+
+Por fim, confirme o cadastro. Neste momento será gerado um número de Termo de Levantamento
+
+![Gravar levantamento](https://github.com/Mateus-cpa/manual-material/blob/main/img/inventario/5%20-%20processar%20levantamento.png)
+
+- Gravar Levantamento
+
+### Processar levantamento
+Após clicar em Processar, é possível analisar processamento e as condições que os bens se encontram.
+
+No exemplo abaixo, foi apresentada a condição mais comum, que é a divergência de localidades.
+
+![Analisar processamento](https://github.com/Mateus-cpa/manual-material/blob/main/img/inventario/6%20-%20Corrigir%20diverg%C3%AAncias.png)
+
+Cada uma das situações seguintes requerem um tratamento:
+
+- Bens <mark>alienados</mark>
+
+- Bens com <mark>divergência</mark> de localidade
+
+![Transferir divergências](https://github.com/Mateus-cpa/manual-material/blob/main/img/inventario/7%20-%20Transferir%20bens.png)
+
+- Bens <mark>em movimentação</mark>
+
+- Bens de <mark>outra UG</mark> (Unidade Gestora)
+
+- Bens <mark>NÃO localizados</mark>
+
 ### Relatório de bens não inventaridos
-Ao finalizar o levantamento de todas loclaidades da Unidade Patrimonial, caso ainda haja bens não inventariados:
+Ao finalizar o levantamento de todas localidades da Unidade Patrimonial, caso ainda haja bens não inventariados:
 - Emitir RELATÓRIO DE BENS NÃO INVENTARIADOS;
 - Despachar estabelecando prazo para informação do paradeiro dos bens.
 
