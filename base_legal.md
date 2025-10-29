@@ -44,6 +44,8 @@
 - [Ofício Circular 4 DLOG/PF (15745077)](https://sei4.pf.gov.br/sei/controlador.php?acao=procedimento_trabalhar&acao_origem=protocolo_pesquisa_rapida&id_protocolo=19619801&infra_sistema=100000100&infra_unidade_atual=120005990&infra_hash=b0b80c6666082f4aced99190d7c8ea1d18f0c7217827f5338d6dfb85a29bd59c) - Classificação Contábil de Bens - Aparelhos Celulares, Smartwatches e HD's Externos em uso polícia
 - [Portaria 19.017/2024](https://pfgovbr.sharepoint.com/sites/intranet/DLOG/LISTA%20RECLASSIFICA%C3%87%C3%83O%20DE%20BENS.pdf) - Sugestão DMAT de reclassificação como <mark>consumo</mark> de diversos materiais no eLog
 
+- [INSTRUÇÃO NORMATIVA DG/PF Nº 304, DE 13 DE MARÇO DE 2025](https://pfgovbr.sharepoint.com/sites/intranet/normativosinternos/Instru%C3%A7%C3%A3o%20Normativa/2025/in-304-2025-dg-pf.aspx) - Regulamenta a atividade disciplinar no âmbito da Polícia Federal. Sobre <mark>ressarcimento dos prejuízos</mark> causados ao erário;
+
 
 # Manuais e Roteiros
 - [Manual de Contabilidade Aplicada ao Setor Público - MCASP](https://www.tesourotransparente.gov.br/publicacoes/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp/2024/26)
