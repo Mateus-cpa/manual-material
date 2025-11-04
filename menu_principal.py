@@ -11,13 +11,13 @@ Features:
 - converte e exibe como mapa mental interativo
 - permite baixar o mapa mental como HTML standalone
 """
-
+import streamlit.components.v1 as components
 import streamlit as st
 import html
 import os
 import glob
 
-ST_REPO_CONTENT_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "conteudo")
+ST_REPO_CONTENT_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "roteiros")
 
 
 
@@ -37,7 +37,7 @@ def read_md_from_path(filepath: str) -> str:
 
 def main():
     st.set_page_config(page_title="Material de Estudos", layout="wide")
-    st.title("📚 Arquivos de execução de material")
+    st.title("📚 Manuais de execução patrimonial")
 
     # Lista de arquivos .md disponíveis
     local_files = list_local_md_files()
@@ -83,27 +83,8 @@ def main():
         with st.expander("Ver conteúdo Markdown", expanded=True):
             st.markdown(md_text)
         
-        st.markdown("### Mapa Mental Interativo")
+        st.markdown("### Fluxograma")
         
-        try:
-            # Exibir o fluxograma
-            components.html(
-                html_text,
-                height=height,
-                scrolling=True
-            )
-            
-            # Botão para baixar o HTML gerado
-            filename = os.path.splitext(os.path.basename(selected_file))[0]
-            st.download_button(
-                "📥 Baixar mapa mental como HTML",
-                data=html_text,
-                file_name=f"{filename}_markmap.html",
-                mime="text/html",
-                help="Baixe o arquivo HTML para visualizar offline"
-            )
-        except Exception as e:
-            st.error(f"Erro ao gerar/renderizar o mapa mental: {str(e)}")
 
 if __name__ == "__main__":
     main()
