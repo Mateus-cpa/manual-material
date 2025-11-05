@@ -11,11 +11,14 @@ Features:
 - converte e exibe como mapa mental interativo
 - permite baixar o mapa mental como HTML standalone
 """
-import streamlit.components.v1 as components
-import streamlit as st
 import html
 import os
 import glob
+
+
+#import streamlit.components.v1 as components
+import streamlit as st
+import graphviz
 
 ST_REPO_CONTENT_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "roteiros")
 
@@ -38,6 +41,27 @@ def read_md_from_path(filepath: str) -> str:
         st.error(f"Erro ao ler {filepath}: {e}")
         return ""
 
+def criar_fluxograma(md_text: str):
+    try:
+        # Simples conversão de Markdown para fluxograma usando graphviz
+        dot = graphviz.Digraph(format='png')
+        lines = md_text.splitlines()
+        previous_node = None
+        for i, line in enumerate(lines):
+            node_id = f"node{i}"
+            label = line.strip().replace('"', '\\"')
+            dot.node(node_id, label)
+            if previous_node:
+                dot.edge(previous_node, node_id)
+            previous_node = node_id
+        
+        st.graphviz_chart(dot, use_container_width=True)
+        return dot
+    except Exception as e:
+        st.error(f"Erro ao criar fluxograma: {e}")
+        return None
+    
+# -- FUNÇÃO PRINCIPAL --
 def main():
     st.set_page_config(page_title="Material de Estudos", layout="wide")
     st.title("📚 Manuais de execução patrimonial")
@@ -63,8 +87,6 @@ def main():
             format_func=lambda x: os.path.splitext(os.path.basename(x))[0].replace('_', ' ').title()
         )
         
-        height = st.number_input("Altura do mapa (px)", min_value=300, max_value=5000, value=600)
-
         st.markdown("---")
         st.markdown("### Sobre")
         st.markdown("Este app converte arquivos Markdown da pasta `roteiros/`.")
@@ -87,7 +109,9 @@ def main():
             st.markdown(md_text)
         
         st.markdown("### Fluxograma")
-        
+        fluxograma = criar_fluxograma(md_text)
+        if fluxograma:
+            st.image(fluxograma.pipe(format='png'))
 
 if __name__ == "__main__":
     main()
