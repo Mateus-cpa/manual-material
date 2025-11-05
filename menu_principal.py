@@ -20,6 +20,9 @@ import glob
 ST_REPO_CONTENT_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "roteiros")
 
 
+def list_local_root_md_files():
+    pattern = os.path.join(os.path.dirname(os.path.abspath(__file__)), "*.md")
+    return sorted(glob.glob(pattern))
 
 def list_local_md_files():
     if not os.path.exists(ST_REPO_CONTENT_DIR):
@@ -40,41 +43,41 @@ def main():
     st.title("📚 Manuais de execução patrimonial")
 
     # Lista de arquivos .md disponíveis
+    local_root_md_files = list_local_root_md_files()
     local_files = list_local_md_files()
+    local_files = local_root_md_files + local_files
     
     if not local_files:
-        st.error("Nenhum arquivo .md encontrado na pasta `conteudo/`")
+        st.error("Nenhum arquivo .md encontrado na pasta `roteiros/`")
         return
 
     # Seleção do arquivo na barra lateral
     with st.sidebar:
-        st.markdown("### Configurações")
-        selected_file = st.selectbox(
-            "Selecione um arquivo:",
-            options=['Selecione um arquivo'] + local_files,
+        
+        st.markdown("### Seleção de roteiros")
+
+        selected_file_roteiro = st.selectbox(
+            "Selecione um roteiro:",
+            options=local_files,
             index=0,
             format_func=lambda x: os.path.splitext(os.path.basename(x))[0].replace('_', ' ').title()
         )
         
-        title = st.text_input(
-            "Título do mapa mental",
-            value=os.path.splitext(os.path.basename(selected_file))[0].replace('_', ' ').title()
-        )
         height = st.number_input("Altura do mapa (px)", min_value=300, max_value=5000, value=600)
 
         st.markdown("---")
         st.markdown("### Sobre")
-        st.markdown("Este app converte arquivos Markdown da pasta `conteudo/` em mapas mentais interativos usando [Markmap](https://markmap.js.org/).")
+        st.markdown("Este app converte arquivos Markdown da pasta `roteiros/`.")
 
     # Carregar e exibir o conteúdo do arquivo selecionado
-    if selected_file == 'Selecione um arquivo':
+    if selected_file_roteiro == 'Selecione um arquivo':
         st.info("Por favor, selecione um arquivo na barra lateral.")
         # Mostrar Readme como introdução
         readme_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "README.md")
         readme_text = read_md_from_path(readme_path)
         st.markdown(readme_text)
         return
-    filepath = os.path.abspath(selected_file)
+    filepath = os.path.abspath(selected_file_roteiro)
     md_text = read_md_from_path(filepath)
     
     if md_text:
