@@ -15,10 +15,13 @@ import html
 import os
 import glob
 
-
+#bibliotecas importadas
 #import streamlit.components.v1 as components
 import streamlit as st
 import graphviz
+
+#bibliotecas locais
+from src.gerar_fluxograma import criar_fluxograma as fluxograma
 
 ST_REPO_CONTENT_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "roteiros")
 
@@ -41,25 +44,6 @@ def read_md_from_path(filepath: str) -> str:
         st.error(f"Erro ao ler {filepath}: {e}")
         return ""
 
-def criar_fluxograma(md_text: str):
-    try:
-        # Simples conversão de Markdown para fluxograma usando graphviz
-        dot = graphviz.Digraph(format='png')
-        lines = md_text.splitlines()
-        previous_node = None
-        for i, line in enumerate(lines):
-            node_id = f"node{i}"
-            label = line.strip().replace('"', '\\"')
-            dot.node(node_id, label)
-            if previous_node:
-                dot.edge(previous_node, node_id)
-            previous_node = node_id
-        
-        st.graphviz_chart(dot, use_container_width=True)
-        return dot
-    except Exception as e:
-        st.error(f"Erro ao criar fluxograma: {e}")
-        return None
     
 # -- FUNÇÃO PRINCIPAL --
 def main():
@@ -107,11 +91,22 @@ def main():
         st.markdown("### Conteúdo Original")
         with st.expander("Ver conteúdo Markdown", expanded=True):
             st.markdown(md_text)
+        st.markdown('### Fluxograma')
+        col_orientation, col_nodes = st.columns(2)
+        orientation = col_orientation.checkbox("Orientação Horizontal", value=False)
+        nos_maximos = col_nodes.slider("Número máximo de nós", 
+                                min_value=4, 
+                                max_value=20, 
+                                value=10, step=1)
+        imagem_fluxograma = fluxograma(md_text, horizontal=orientation, max_nodes=nos_maximos)
+        st.graphviz_chart(imagem_fluxograma)
+
+        st.download_button(
+           label="Baixar Fluxograma",
+           data=imagem_fluxograma.source,
+           file_name=f"{selected_file_roteiro}.png",
+           mime="image/png")
         
-        st.markdown("### Fluxograma")
-        fluxograma = criar_fluxograma(md_text)
-        if fluxograma:
-            st.image(fluxograma.pipe(format='png'))
 
 if __name__ == "__main__":
     main()
