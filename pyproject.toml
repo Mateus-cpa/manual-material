@@ -8,6 +8,7 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "^3.10"
 streamlit = "^1.51.0"
+graphviz = "^0.21"
 
 
 [build-system]
