@@ -9,6 +9,7 @@ readme = "README.md"
 python = "^3.10"
 streamlit = "^1.51.0"
 graphviz = "^0.21"
+transformers = "^4.57.1"
 
 
 [build-system]
