@@ -11,14 +11,12 @@ Features:
 - converte e exibe como mapa mental interativo
 - permite baixar o mapa mental como HTML standalone
 """
-import html
+#bibliotecas nativas
 import os
 import glob
 
 #bibliotecas importadas
-#import streamlit.components.v1 as components
 import streamlit as st
-import graphviz
 
 #bibliotecas locais
 from src.gerar_fluxograma import criar_fluxograma as fluxograma
@@ -74,8 +72,8 @@ def main():
         st.markdown("### Configurações do Fluxograma")
         orientation = st.checkbox("Orientação Horizontal", value=False)
         nos_maximos = st.slider("Número máximo de nós", 
-                                min_value=4, 
-                                max_value=20, 
+                                min_value=3, 
+                                max_value=40, 
                                 value=10, 
                                 step=1,
                                 key="max_nodes_slider")
