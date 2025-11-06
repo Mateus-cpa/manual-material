@@ -70,7 +70,7 @@ def main():
         )
 
         st.markdown("### Configurações do Fluxograma")
-        orientation = st.checkbox("Orientação Horizontal", value=False)
+        orientation = st.checkbox("Orientação Horizontal", value=False, disabled=True)
         nos_maximos = st.slider("Número máximo de nós", 
                                 min_value=3, 
                                 max_value=40, 
@@ -83,7 +83,7 @@ def main():
                               value=8, 
                               step=1, 
                               key="label_word_limit")
-        
+        show_side_nodes = st.checkbox("Mostrar Ramificações Laterais", value=False)
         st.markdown("---")
         st.markdown("### Sobre")
         st.markdown("Este app converte arquivos Markdown da pasta `roteiros/`.")
@@ -109,7 +109,8 @@ def main():
         
         imagem_fluxograma = fluxograma(md_text, horizontal=orientation, 
                                        max_nodes=nos_maximos, 
-                                       max_words=max_words)
+                                       max_words=max_words,
+                                       show_side_nodes=show_side_nodes)
         st.graphviz_chart(imagem_fluxograma)
 
         st.download_button(
