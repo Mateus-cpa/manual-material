@@ -2,10 +2,10 @@ import re
 import textwrap
 from typing import List
 from graphviz import Digraph
-
+import streamlit as st
 
 # Helpers: extração simples de passos e sumarização heurística
-def _extract_steps_from_md(md_text: str, max_steps: int = 20) -> List[str]:
+def _extract_steps_from_md(md_text: str, max_steps: int = 20, max_words: int = 8) -> List[str]:
     """Extrai headings e itens de lista de um Markdown como passos.
 
     Simples e determinístico — suficiente para transformar roteiros em fluxograma.
@@ -48,14 +48,14 @@ def _summarize_text(text: str, max_words: int = 8) -> str:
     return " ".join(words[:max_words]) + "..."
 
 
-def criar_fluxograma(md_text: str, horizontal: bool = False, max_nodes: int = 20) -> Digraph:
+def criar_fluxograma(md_text: str, horizontal: bool = False, max_nodes: int = 20, max_words: int = 8) -> Digraph:
     """Cria um graphviz.Digraph a partir do Markdown fornecido.
 
     - Extrai passos/headings/listas do Markdown
     - Gera rótulos curtos para nós
     - Coloca o texto completo em `tooltip` (útil em SVG)
     """
-    steps = _extract_steps_from_md(md_text, max_steps=max_nodes)
+    steps = _extract_steps_from_md(md_text, max_steps=max_nodes, max_words=max_words)
 
     dot = Digraph("fluxograma")
     dot.attr(rankdir=("LR" if horizontal else "TB"), splines="ortho")
@@ -64,7 +64,7 @@ def criar_fluxograma(md_text: str, horizontal: bool = False, max_nodes: int = 20
     for i, step in enumerate(steps):
         node_id = f"n{i}"
         full_text = step
-        short = _summarize_text(full_text, max_words=6)
+        short = _summarize_text(full_text, max_words=max_words)
         label = short.replace('"', "'")
         dot.node(node_id, label, shape="box", style="rounded,filled", fillcolor="lightgrey", tooltip=full_text)
         if prev_id is not None:
