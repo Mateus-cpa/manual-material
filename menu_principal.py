@@ -76,7 +76,15 @@ def main():
         nos_maximos = st.slider("Número máximo de nós", 
                                 min_value=4, 
                                 max_value=20, 
-                                value=10, step=1)
+                                value=10, 
+                                step=1,
+                                key="max_nodes_slider")
+        max_words = st.slider("Número máximo de palavras no rótulo", 
+                              min_value=3, 
+                              max_value=15, 
+                              value=8, 
+                              step=1, 
+                              key="label_word_limit")
         
         st.markdown("---")
         st.markdown("### Sobre")
@@ -101,7 +109,9 @@ def main():
         st.markdown('### Fluxograma')
         
         
-        imagem_fluxograma = fluxograma(md_text, horizontal=orientation, max_nodes=nos_maximos)
+        imagem_fluxograma = fluxograma(md_text, horizontal=orientation, 
+                                       max_nodes=nos_maximos, 
+                                       max_words=max_words)
         st.graphviz_chart(imagem_fluxograma)
 
         st.download_button(
