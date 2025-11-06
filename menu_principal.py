@@ -70,6 +70,13 @@ def main():
             index=0,
             format_func=lambda x: os.path.splitext(os.path.basename(x))[0].replace('_', ' ').title()
         )
+
+        st.markdown("### Configurações do Fluxograma")
+        orientation = st.checkbox("Orientação Horizontal", value=False)
+        nos_maximos = st.slider("Número máximo de nós", 
+                                min_value=4, 
+                                max_value=20, 
+                                value=10, step=1)
         
         st.markdown("---")
         st.markdown("### Sobre")
@@ -92,12 +99,8 @@ def main():
         with st.expander("Ver conteúdo Markdown", expanded=True):
             st.markdown(md_text)
         st.markdown('### Fluxograma')
-        col_orientation, col_nodes = st.columns(2)
-        orientation = col_orientation.checkbox("Orientação Horizontal", value=False)
-        nos_maximos = col_nodes.slider("Número máximo de nós", 
-                                min_value=4, 
-                                max_value=20, 
-                                value=10, step=1)
+        
+        
         imagem_fluxograma = fluxograma(md_text, horizontal=orientation, max_nodes=nos_maximos)
         st.graphviz_chart(imagem_fluxograma)
 
