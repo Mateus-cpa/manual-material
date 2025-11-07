@@ -68,6 +68,7 @@ def main():
             index=0,
             format_func=lambda x: os.path.splitext(os.path.basename(x))[0].replace('_', ' ').title()
         )
+        st.write("Arquivo selecionado:", selected_file_roteiro)
 
         st.markdown("### Configurações do Fluxograma")
         orientation = st.checkbox("Orientação Horizontal", value=False, disabled=True)
@@ -98,14 +99,16 @@ def main():
         return
     filepath = os.path.abspath(selected_file_roteiro)
     md_text = read_md_from_path(filepath)
-    
-    if md_text:
+
+    if selected_file_roteiro.endswith('lancamentos_siafi.md'):
+        st.switch_page("execucao_siafi")
+
+    elif md_text:
         # Exibir o conteúdo original do Markdown
         st.markdown("### Conteúdo Original")
         with st.expander("Ver conteúdo Markdown", expanded=True):
             st.markdown(md_text)
         st.markdown('### Fluxograma')
-        
         
         imagem_fluxograma = fluxograma(md_text, horizontal=orientation, 
                                        max_nodes=nos_maximos, 
