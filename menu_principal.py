@@ -45,8 +45,17 @@ def read_md_from_path(filepath: str) -> str:
     
 # -- FUNÇÃO PRINCIPAL --
 def main():
-    st.set_page_config(page_title="Material de Estudos", layout="wide")
+    st.set_page_config(
+        page_title="Material de Estudos",
+        layout="wide",
+        page_icon="📚"
+    )
+    
     st.title("📚 Manuais de execução patrimonial")
+    
+    # Certifique-se de que o diretório pages existe
+    pages_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "pages")
+    os.makedirs(pages_dir, exist_ok=True)
 
     # Lista de arquivos .md disponíveis
     local_root_md_files = list_local_root_md_files()
@@ -101,7 +110,7 @@ def main():
     md_text = read_md_from_path(filepath)
 
     if selected_file_roteiro.endswith('lancamentos_siafi.md'):
-        st.switch_page("execucao_siafi")
+        st.switch_page("pages/execucao_siafi.py")
 
     elif md_text:
         # Exibir o conteúdo original do Markdown
