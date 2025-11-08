@@ -220,3 +220,4 @@ with tab2:
                 st.rerun()
             else:
                 st.error("Por favor, preencha pelo menos os campos: Área, Tipo DH e Situação")
+        
