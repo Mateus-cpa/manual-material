@@ -13,13 +13,13 @@
 
 4. Localizar o comando no menu:
 
-![Abrir termo de acautelamento](https://github.com/Mateus-cpa/manual-material/blob/main/img/02%20-%20Abrir%20Termo%20de%20acautelamento.PNG)
+![Abrir termo de acautelamento](https://raw.githubusercontent.com/Mateus-cpa/manual-material/refs/heads/main/img/02%20-%20Abrir%20Termo%20de%20acautelamento.PNG)
 
 5. Comece a digitar o nome do detentor
 
 6. Escolha uma das opções oferecidas pelo sistema:
 
-![Buscar Detentor](https://github.com/Mateus-cpa/manual-material/blob/main/img/03%20-%20Buscar%20detentor.PNG)
+![Buscar Detentor](https://raw.githubusercontent.com/Mateus-cpa/manual-material/refs/heads/main/img/03%20-%20Buscar%20detentor.PNG)
 
 
 Para acautelar item, verifique se este se o referido bem se encontra **na mesma Unidade Patrimonial de Acautelamento** que você tenha acesso. Caso ele não esteja, na Unidade não retornará resultado.
@@ -32,11 +32,11 @@ Para acautelar item, verifique se este se o referido bem se encontra **na mesma 
 
 2. Adicionar bens
 
-![Incluir bem](https://github.com/Mateus-cpa/manual-material/blob/main/img/06%20-%20Incluir%20bem%20no%20termo.PNG)
+![Incluir bem](https://raw.githubusercontent.com/Mateus-cpa/manual-material/refs/heads/main/img/06%20-%20Incluir%20bem%20no%20termo.PNG)
 
 Sempre escolha a opção oferecida pelo sistema:
 
-![Selecionar bem](https://github.com/Mateus-cpa/manual-material/blob/main/img/08-selecionar_bem.PNG)
+![Selecionar bem](https://raw.githubusercontent.com/Mateus-cpa/manual-material/refs/heads/main/img/08-selecionar_bem.PNG)
 
 Os campos com * (estrela azul) são obrigatórios.
 
@@ -50,7 +50,7 @@ Os campos com * (estrela azul) são obrigatórios.
 
 # Devolver bem acautelado
 Com o Termo aberto, você pode devolver um bem que esteja na mesma unidade que você estiver logado clicando no 
-![[Icone de devolver](https://github.com/Mateus-cpa/manual-material/blob/main/img/07%20-%20%C3%8Dcone%20de%20devolver.PNG)]
+![[Icone de devolver](https://raw.githubusercontent.com/Mateus-cpa/manual-material/refs/heads/main/img/07%20-%20%C3%8Dcone%20de%20devolver.PNG)]
 
 Solicitar assinatura do Detentor, caso necessário.
 
