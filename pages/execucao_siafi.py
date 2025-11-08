@@ -136,25 +136,11 @@ with tab1:
         if situacao_filter != "Todos":
             df_filtered = df_filtered[df_filtered['situacao'] == situacao_filter]
 
-        # Opções de exportação
-        col1, col2 = st.columns([1, 5])
-        with col1:
-            formato = st.selectbox(
-                "Formato de Exportação",
-                options=["Excel", "CSV"]
-            )
-            if st.button("Exportar"):
-                if formato == "Excel":
-                    df_filtered.to_excel("data/execucao_siafi_export.xlsx", index=False)
-                    st.success("Dados exportados para Excel com sucesso!")
-                else:
-                    df_filtered.to_csv("data/execucao_siafi_export.csv", index=False)
-                    st.success("Dados exportados para CSV com sucesso!")
-
+        
         # Adicionar botões de edição e exclusão
         df_filtered['Ações'] = None
         edited_df = st.data_editor(
-            df,
+            df_filtered,
             column_config={
                 "Ações": st.column_config.Column(
                     "Ações",
@@ -163,13 +149,14 @@ with tab1:
                 )
             },
             hide_index=True,
-        )
+            width='stretch',
+            use_container_width=True)
         
         # Tratar edições
         if edited_df is not None:
             for index, row in edited_df.iterrows():
                 # Verificar se houve alterações
-                original_row = df.loc[index]
+                original_row = df_filtered.loc[index]
                 if not row.equals(original_row):
                     if st.session_state.get(f'confirmar_edicao_{row["id"]}', False):
                         atualizar_registro(
@@ -220,4 +207,18 @@ with tab2:
                 st.rerun()
             else:
                 st.error("Por favor, preencha pelo menos os campos: Área, Tipo DH e Situação")
-        
+
+# Opções de exportação
+col1, col2 = st.columns([1, 5])
+with col1:
+    formato = st.selectbox(
+        "Formato de Exportação",
+        options=["Excel", "CSV"]
+    )
+    if st.button("Exportar"):
+        if formato == "Excel":
+            df_filtered.to_excel("data/execucao_siafi_export.xlsx", index=False)
+            st.success("Dados exportados para Excel com sucesso!")
+        else:
+            df_filtered.to_csv("data/execucao_siafi_export.csv", index=False)
+            st.success("Dados exportados para CSV com sucesso!")
