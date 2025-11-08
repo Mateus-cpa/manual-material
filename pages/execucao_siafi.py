@@ -197,13 +197,15 @@ with tab2:
         col1, col2 = st.columns(2)
         
         with col1:
-            area = st.text_input("Área")
-            tipo_dh = st.text_input("Tipo DH")
-            situacao = st.text_input("Situação")
+            area = st.selectbox("Área", options=["Selecione",
+                                                 "Material de Consumo","Intangíveis",
+                                                 "Imóveis","Outros materiais permanentes"])
+            tipo_dh = st.selectbox("Tipo DH", options=["Selecione","PA","NP"])
+            situacao = st.text_input("Situação","Código da Situação")
             descricao_situacao = st.text_area("Descrição Situação")
             
         with col2:
-            atividade_material = st.text_input("Atividade Material")
+            atividade_material = st.text_input("Comando eLog")
             conta_contabil = st.text_input("Conta Contábil")
             conta_corrente = st.text_input("Conta Corrente")
             obs_sei = st.text_area("Obs SEI")
