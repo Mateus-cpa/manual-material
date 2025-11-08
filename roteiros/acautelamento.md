@@ -3,10 +3,10 @@
 [Retornar para Roteiros](https://github.com/Mateus-cpa/manual-material/blob/main/roteiros.md)
 # Termo de Acautelamento
 1. Logar no Sistema eLog: https://sistemas.dpf.gov.br/sipac/
-2. No menu superior, selecione a Unidade Patrimonial que você deseja através do botão ![Alterar Unidade](https://github.com/Mateus-cpa/manual-material/blob/main/img/icone_troca_unidade.PNG).
+2. No menu superior, selecione a Unidade Patrimonial que você deseja através do botão ![Alterar Unidade](https://raw.githubusercontent.com/Mateus-cpa/manual-material/refs/heads/main/img/icone_troca_unidade.PNG).
 3. Abrir o Portal Administrativo:
 
-![Consultar Termo de Acautelamento](https://github.com/Mateus-cpa/manual-material/blob/main/img/01%20-%20Consultar%20Termo%20de%20acautelamento.PNG)
+![Consultar Termo de Acautelamento](https://raw.githubusercontent.com/Mateus-cpa/manual-material/refs/heads/main/img/01%20-%20Consultar%20Termo%20de%20acautelamento.PNG)
 
 >**Caminho alternativo**: sipac/patrimônio/Criar/editar/consultar cautela
 
