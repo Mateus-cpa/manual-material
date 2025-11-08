@@ -84,8 +84,8 @@ def criar_fluxograma(
     # valores padrão para cores e formas
     # Sequência de 10 cores padrão para cada Heading2 e seus subordinados
     default_group_colors = [
-        "#ffd9d9", "#ffe6b3", "#fff3b0", "#e6ffd9", "#d9f2ff",
-        "#d6ccff", "#f2d9ff", "#ffdbe6", "#e8f7df", "#cfe8ff",
+        "#bd6262", "#fab731", "#fbd80f", "#75ee35", "#57bcf3",
+        "#5a60f8", "#c158fa", "#fe56b2", "#fa5579", "#ff2323",
     ]
     default_color = "#f0f0f0"
     # color_map pode ser fornecido por índice (1-based) para cada Heading2
