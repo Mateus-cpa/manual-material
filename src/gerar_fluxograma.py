@@ -51,7 +51,6 @@ def _extract_steps_from_md(md_text: str, max_steps: int = 20, max_words: int = 8
 
 def _summarize_text(text: str, max_words: int = 8) -> str:
     """Gera rótulo curto para nós usando heurística simples.
-
     (Transformers pode ser integrado se você quiser sumarização mais potente.)
     """
     text = text.strip()
@@ -67,7 +66,7 @@ def _summarize_text(text: str, max_words: int = 8) -> str:
 def criar_fluxograma(
     md_text: str,
     horizontal: bool = False,
-    max_nodes: int = 20,
+    max_nodes: int = 30,
     max_words: int = 8,
     color_map: Optional[Dict[int, str]] = None,
     shape_map: Optional[Dict[str, str]] = None,
@@ -81,7 +80,6 @@ def criar_fluxograma(
     """
     steps = _extract_steps_from_md(md_text, max_steps=max_nodes, max_words=max_words)
 
-    # valores padrão para cores e formas
     # Sequência de 10 cores padrão para cada Heading2 e seus subordinados
     default_group_colors = [
         "#bd6262", "#fab731", "#fbd80f", "#75ee35", "#57bcf3",
@@ -93,7 +91,6 @@ def criar_fluxograma(
         color_map = {i + 1: c for i, c in enumerate(default_group_colors)}
 
     # Formas padrão: heading2 -> box, heading3 -> box (legível), lateral -> ellipse
-    # H3 originalmente usava 'diamond' mas isso pode achatar a imagem; usar 'box' por padrão e permitir override
     if shape_map is None:
         shape_map = {"h2": "box", "h3": "ellipse", "lateral": "parallelogram"}
 
@@ -116,7 +113,11 @@ def criar_fluxograma(
             title = s['text']
             break
     if title:
-        dot.attr(label=title, labelloc='t', fontsize='18')
+        dot.attr(label=title, 
+                 labelloc='t', 
+                 fontsize='18', 
+                 fontcolor="#0D05F3",
+                 fontname='Helvetica-Bold')
 
     # construir nós: H2 e H3 no fluxo principal; H4 e listas como laterais; ignorar parágrafos
     for i, step in enumerate(steps):
