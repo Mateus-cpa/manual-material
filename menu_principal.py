@@ -37,7 +37,12 @@ def list_local_md_files():
 def read_md_from_path(filepath: str) -> str:
     try:
         with open(filepath, 'r', encoding='utf-8') as f:
-            return f.read()
+            # remover link de retornar ao menu principal
+            texto = f.read()
+            texto = texto.replace("[Retornar ao menu principal](https://github.com/Mateus-cpa/manual-material/blob/main/README.md)","")
+            texto = texto.replace("[Retornar para Roteiros](https://github.com/Mateus-cpa/manual-material/blob/main/roteiros.md)","")
+           
+            return texto
     except Exception as e:
         st.error(f"Erro ao ler {filepath}: {e}")
         return ""
@@ -104,6 +109,7 @@ def main():
         # Mostrar Readme como introdução
         readme_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "README.md")
         readme_text = read_md_from_path(readme_path)
+        # remover link de retornar ao menu principal
         st.markdown(readme_text)
         return
     filepath = os.path.abspath(selected_file_roteiro)
