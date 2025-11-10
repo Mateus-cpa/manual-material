@@ -67,9 +67,9 @@ Após listar todos os bens à guia de movimentação, conclua com o botão "Conf
 ## Recebimento imediato
 Após o envio, aparece um botão de recebimento imediato, onde é possível o servidor realizar imediatamente o recebimento, solicitando o login e senha de qualquer servidor **lotado no local de destino**.
 
-# Receber Bens
+## Receber Bens
 
-## 10. Abrir o menu Receber bens
+### Abrir o menu Receber bens
 
 >Caminho: sipac/Patrimônio/Gerência/Movimentações/Receber bens.
 
@@ -77,25 +77,27 @@ O número indica a quantidade de bens a receber.
 
 ![Abrir o menu Receber bens](https://github.com/Mateus-cpa/manual-material/blob/main/img/10%20-%20Abrir%20o%20menu%20Receber%20bens.PNG)
 
-## 11. Selecionar guia de recebimento
+### Selecionar guia de recebimento
 
 ![Selecionar guia de recebimento](https://github.com/Mateus-cpa/manual-material/blob/main/img/11%20-%20Selecionar%20guia%20de%20recebimento.PNG)
 
-# Unidade de Material: Validação (quando movimentação entre UGs)
+## Validação (quando movimentação entre UGs)
+
+Unidade de Material
 
 Cadastrar Documento Hábil no Siafi. Através da integração, ele envia o DH Lançamento Patrimonial (PA). 
 - IMB046 - Transferência/doação de bens móveis - sem colocar bem em trânsito (valor bruto)
 - IMB044 - Transf de deprec/exaust/amortz acumulada (depreciação)
 
-# Movimentação de Bens para outros Órgãos
+## Movimentação de Bens para outros Órgãos
 O Termo de Responsabilidade lastreia a mudança de responsabilidade sobre o bem. Pode ser:
 - Interna: Dentro da Unidade Gestora.
 - Externa: Entre Unidades Gestoras. 
 - Externa: Também para outras Unidades Gestoras de outros Órgãos. A parte do SIAFI é manual no valor líquido.
 
 
-#  Transferência externa - Outros Órgãos Federais
-## SIPAC
+###  Transferência externa - Outros Órgãos Federais
+1. SIPAC
 > Caminho: sipac/patrimônio/gerência/movimentações para outros órgãos
 
 ![Movimentação para outros Órgãos](https://github.com/Mateus-cpa/manual-material/blob/main/img/Transfer%C3%8Ancia%20externa%20outros%20%C3%B3rg%C3%A3os.PNG)
@@ -107,11 +109,11 @@ Modalidade de desfazimento:
 Toda alienação é precedida de uma avaliação por comissão formada.
 
 **IMPORTANTÍSSIMO**: Termo de Recebimento deve ser impresso e anexado ao SEI 
-### SIAFI
+2. SIAFI
 - Tipo: PA
 - Dados básicos: UG e valor bruto
 - Outros Lançamentos
-#### Situação (repetir para cada conta): 
+#### Lançar Situação (repetir para cada conta): 
 - IMB041 - confirma recebimento em transferência/doação de bens imobilizados em trânsito
 - IMB040 - Transferência/doação de bens imobilizados em trânsito
 - IMB010 - Apuração de valor contábil líquido de bens imóveis pela baixa da depreciação.
