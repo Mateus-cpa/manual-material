@@ -83,8 +83,8 @@ def main():
         orientation = st.checkbox("Orientação Horizontal", value=False, disabled=True)
         nos_maximos = st.slider("Número máximo de nós", 
                                 min_value=3, 
-                                max_value=40, 
-                                value=10, 
+                                max_value=60, 
+                                value=30, 
                                 step=1,
                                 key="max_nodes_slider")
         max_words = st.slider("Número máximo de palavras no rótulo", 
