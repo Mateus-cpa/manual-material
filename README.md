@@ -1,6 +1,9 @@
 # Manual de Unidades de Material
 Trata-se de roteiro para Unidades de Material da Administração Pública Federal.
 
+Os roteiros se encontram publicados no [Streamlit](https://manual-material.streamlit.app/), mas ainda se encontra em adaptação e com o tempo substituirá a navegação de roteiros por link no github.
+
+
 ## Índice
 ### [Base Legal](https://github.com/Mateus-cpa/manual-material/blob/main/base_legal.md)
 ### [Competências dos Núcleos de Material - IN DG/PF 270/2023](https://github.com/Mateus-cpa/manual-material/blob/main/competencias_pf.md)
