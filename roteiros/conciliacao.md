@@ -11,18 +11,26 @@ Pode decorrer de Transferência, Baixa, Incorporação, TBNL (termo de baixa por
 ## Indicar a possível causa e apontar a consequência
 Ex: Um resumo contábil de saída por transferência registrado em duplicidade no SIAFI, resulta numa divergênciade saldo no e-Log a **MAIOR**.
 
-### Metodologia
-1. Conciliar os registros do Extrato de movimentação (e-Log) com o Razão da conta contábil.
+### Conciliar saldos eLog x SIAFI
+Avaliar do Extrato de movimentação (e-Log) com o Razão da conta contábil.
 
-2. Verificar os documentos do e-Log individualmente (Nota de Recebimento, Termo de Bens Localização, Termos de Bens Não localizados).
+### Verificar os documentos do e-Log 
+1. ENTRADA
+- Notas de Recebimento
+- Termos de Bens Localização
+- Guias de movimentação para outras UGs
+2. SAÍDA
+- Termos de Bens Não localizados
+- Guias de movimentação para outras UGs
+- Termos de Baixa/Alienação
 
-3. Termo de alienação, termpos de transferência com os respectivos resumo contábil e confrontar com os registros registros da conta contábil.
+### Analisar saldos de conta contábil 
 
-4. Extrair  o relatório analístico do grupo de bens analisando as movimentações individuais de cada bem impactado.
+1. Extrair  o relatório analístico do grupo de bens analisando as movimentações individuais de cada bem impactado.
 
-5. Verificar possível alteração de slado anterior do grupo de bens, através do relatório analítico e sintético do sistema e-Log.
+2. Verificar possível alteração de slado anterior do grupo de bens, através do relatório analítico e sintético do sistema e-Log.
 
-### Ferramentas
+#### Ferramentas
 1. eLog: Relatório sintético dos bens RMB, RMI, RMA;
 
 2. Tesouro gerencial: saldo de D-1;
@@ -34,7 +42,7 @@ Ex: Um resumo contábil de saída por transferência registrado em duplicidade n
 5. eLog: Extrato de Movimentação
 
 
-### Dicas
+#### Dicas
 1. Qualquer bem no sistema de controle com saldo (-) negativo é indicação de erro.
 
 2. Jamais a **DEPRECIAÇÃO** poderá ser superior ao valor do bem.
