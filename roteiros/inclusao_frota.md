@@ -21,11 +21,11 @@ Conforme a IN DG/PF 203/2021, anexo V (fluxograma).
 9. Incorporação no eLog;
 > Caminho: sipac/Patrimônio/Bens/Tombamento/Tombar Bens/Outros Tipos de Entrada (Ex.: Doação, Devolução e etc.)
 
-![Identificação do fornecedor](https://github.com/Mateus-cpa/manual-material/blob/main/img/01%20-%20identificação%20fornecedor-doador.PNG)
+![Identificação do fornecedor](https://raw.githubusercontent.com/Mateus-cpa/manual-material/refs/heads/main/img/01%20-%20identificação%20fornecedor-doador.PNG)
 
-![Dados do material](https://github.com/Mateus-cpa/manual-material/blob/main/img\02-%20%20Dados%20do%20material.PNG)
+![Dados do material](https://raw.githubusercontent.com/Mateus-cpa/manual-material/refs/heads/main/img\02-%20%20Dados%20do%20material.PNG)
 
-![Descritores encontrados](https://github.com/Mateus-cpa/manual-material/blob/main/img/03%20-%20Descritores%20encontrados.PNG)
+![Descritores encontrados](https://raw.githubusercontent.com/Mateus-cpa/manual-material/refs/heads/main/img/03%20-%20Descritores%20encontrados.PNG)
 
 - Anexar Termo de Recebimento
 
@@ -33,7 +33,7 @@ Conforme a IN DG/PF 203/2021, anexo V (fluxograma).
 
 - Emitir Documento SIAFI
 
-![Emitir Documento SIAFI](https://github.com/Mateus-cpa/manual-material/blob/main/img/04%20-%20Emitir%20documento%20Siafi.PNG)
+![Emitir Documento SIAFI](https://raw.githubusercontent.com/Mateus-cpa/manual-material/refs/heads/main/img/04%20-%20Emitir%20documento%20Siafi.PNG)
 
 - Anotar número de NS gerado
 
@@ -44,7 +44,7 @@ Conforme a IN DG/PF 203/2021, anexo V (fluxograma).
     - Abrir última versão
     - Botão Imprimir (Nota de Sistema nº da NS - PA xx)
 
-![Emitir Documento SIAFI](https://github.com/Mateus-cpa/manual-material/blob/main/img/05%20-%20Comprovante%20de%20Registro%20SIAFI.PNG)
+![Emitir Documento SIAFI](https://raw.githubusercontent.com/Mateus-cpa/manual-material/refs/heads/main/img/05%20-%20Comprovante%20de%20Registro%20SIAFI.PNG)
 
 - Movimentar para CONFREG/SR/PF/xx
     - Manter aberto na Unidade
