@@ -95,11 +95,26 @@ No Laudo, há a seção CONCLUSÃO onde o perito atribui os novos valores ao im�
 ![INCDH](https://raw.githubusercontent.com/Mateus-cpa/manual-material/refs/heads/main/img/11%20-%20lan%C3%A7ar%20PA%20siafi.PNG)
 
 
+### Conferir Balancete
+27. Balancete 231110100 Nivel desdobramento 7
+1
+1
+2
+1
+Se reavaliação negativa.
+236110100 - Reavaliação de bens imóveis - 
+
+#### Reavaliação se novo valor for menor que anterior
+Se alguma conta corrente estiver devedor, deve lançar o PA para desinverter o saldo 
+Lançar PA com IMB005 - RECLAS. DO C/C INVERTIDO DA CONTA 23611.01.00-REAVAL.DE BENS IMÓVEIS P/VPD para inverter o saldo devedor 
+
+
 27. Evidenciar o histórico mensal das reavaliações utilizando o INCDH tipo PA:
     - Se houver alguma reavaliação negativa, ocasionando em saldo devedor na conta 899912402, lançar PA para inverter valor.
     - Situação IMB005.
     - Avaliar conforme Macrofunção 02.10.06, item 4.3.4 e subitem 4.3.5.2.
     
+
 
 [Retornar para Roteiros](https://github.com/Mateus-cpa/manual-material/blob/main/roteiros.md)
 
