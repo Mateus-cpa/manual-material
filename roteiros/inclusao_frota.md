@@ -60,7 +60,7 @@ Incorporação no eLog;
 - Encaminhar processo via Despacho (caso não tenha salvo em modelos) par aUnidade solicitante
 
 
-## Inclur na frota pela Unidade de Transporte
+## Inclur na frota - Unidade de Transporte
 Conforme IN DG/PF 203/2021;
   >Art. 31. Não podem ser objeto de manutenções preventiva e corretiva as viaturas pendentes de: 
   
