@@ -92,12 +92,7 @@ def main():
                                 value=30, 
                                 step=1,
                                 key="max_nodes_slider")
-        max_words = st.slider("Número máximo de palavras no rótulo", 
-                              min_value=3, 
-                              max_value=15, 
-                              value=8, 
-                              step=1, 
-                              key="label_word_limit")
+        
         show_side_nodes = st.checkbox("Mostrar Ramificações Laterais", value=False)
         st.markdown("---")
         st.markdown("### Sobre")
@@ -127,7 +122,7 @@ def main():
         
         imagem_fluxograma = fluxograma(md_text, horizontal=orientation, 
                                        max_nodes=nos_maximos, 
-                                       max_words=max_words,
+                                       
                                        show_side_nodes=show_side_nodes)
         st.graphviz_chart(imagem_fluxograma)
 
