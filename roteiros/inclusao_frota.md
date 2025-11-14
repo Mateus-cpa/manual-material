@@ -8,14 +8,16 @@ Conforme a IN DG/PF 203/2021, anexo V (fluxograma).
 
 ### Anexar Laudo de perícia
 
-### Informar sobre inclusão na frota - Unidade de Transporte
+## Informar sobre inclusão na frota - Unidade de Transporte
 Informações de condições de uso e impacto de inclusão na frota
 
-### Autorizar solicitação
+## Autorizar solicitação - Ordenador de Despesas
 Autorização pela DLOG
 
-### Solicitar autorização judicial - DLOG
+## Solicitar autorização judicial - DLOG
 Despacho/Descisão de autorização de uso;
+
+## Anexar autorização judicial - Unidade demandante
 
 ### Solicitar emissão do (CRLV-e) (Detran) 
 Emitir Certificado de Registro e Licenciamento do Veículo (CRLV-e) em nome da Polícia para se classificar como [viatura]((https://github.com/Mateus-cpa/manual-material/blob/main/roteiros/viaturas.md)).
