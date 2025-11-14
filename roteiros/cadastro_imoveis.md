@@ -21,11 +21,11 @@ No Laudo, há a seção CONCLUSÃO onde o perito atribui os novos valores ao im�
 ## Lançamento de atualização dos valores do terreno
 1. Entrar em Cadastramento > Imóvel
 
-![Cadastro Imóvel](https://github.com/Mateus-cpa/manual-material/blob/main/img/1%20-%20Tela%20Cadastramento%20-%20Terrenos.PNG)
+![Cadastro Imóvel](https://raw.githubusercontent.com/Mateus-cpa/manual-material/refs/heads/main/img/1%20-%20Tela%20Cadastramento%20-%20Terrenos.PNG)
 
 2. Informar o RIP Imóvel
 
-![Informa RIP imóvel](https://github.com/Mateus-cpa/manual-material/blob/main/img/2%20-%20inserir%20RIP%20Im%C3%B3vel.PNG)
+![Informa RIP imóvel](https://raw.githubusercontent.com/Mateus-cpa/manual-material/refs/heads/main/img/2%20-%20inserir%20RIP%20Im%C3%B3vel.PNG)
 
 3. Ir para a Seção Dados do Terreno
 4. Se mantiver a quantidade de m², 
@@ -33,13 +33,13 @@ No Laudo, há a seção CONCLUSÃO onde o perito atribui os novos valores ao im�
     - Lançar o Valor do Terreno (R$)
     - Quando se preenche um, o outro é preenchido automaticamente após a gravação dos dados.
 
-![Dados do Terreno](https://github.com/Mateus-cpa/manual-material/blob/main/img/3%20-%20Dados%20do%20terreno.PNG)
+![Dados do Terreno](https://raw.githubusercontent.com/Mateus-cpa/manual-material/refs/heads/main/img/3%20-%20Dados%20do%20terreno.PNG)
 
 5. Lançar Data Avaliação: data do laudo.
     - Nível de Rigor é sempre Rigorosa (6 meses), conforme Portaria Conjunta 010/2023 - SPU/STN.
     - Prazo Validade é calculado automaticamente.
 
-![Data Laudo](https://github.com/Mateus-cpa/manual-material/blob/main/img/4%20-%20Dados%20do%20im%C3%B3vel%20-%20data%20laudo.PNG)
+![Data Laudo](https://raw.githubusercontent.com/Mateus-cpa/manual-material/refs/heads/main/img/4%20-%20Dados%20do%20im%C3%B3vel%20-%20data%20laudo.PNG)
 
 6. Botão Avançar
 7. Conferir Dados imóvel
@@ -49,7 +49,7 @@ No Laudo, há a seção CONCLUSÃO onde o perito atribui os novos valores ao im�
 ## Lançamento de atualização dos valores das benfeitorias
 10. Entrar em Cadastramento > Utilização
 
-![Cadastra Utilização](https://github.com/Mateus-cpa/manual-material/blob/main/img/5%20-%20Tela%20cadastramento%20-%20Utiliza%C3%A7%C3%A3o%20(para%20lan%C3%A7ar%20benfeitorias).PNG)
+![Cadastra Utilização](https://raw.githubusercontent.com/Mateus-cpa/manual-material/refs/heads/main/img/5%20-%20Tela%20cadastramento%20-%20Utiliza%C3%A7%C3%A3o%20(para%20lan%C3%A7ar%20benfeitorias).PNG)
 
 11. Informar o RIP Utilização
 12. Na primeira tela ele apresenta os dados do imóvel
@@ -57,7 +57,7 @@ No Laudo, há a seção CONCLUSÃO onde o perito atribui os novos valores ao im�
 14. Apagar CUB para o sistema calcular posteriormente
 15. Lançar Valor da Benfeitoria (R$)
 
-![Valor da benfeitoria](https://github.com/Mateus-cpa/manual-material/blob/main/img/6%20-%20Valor%20da%20benfeitoria.PNG)
+![Valor da benfeitoria](https://raw.githubusercontent.com/Mateus-cpa/manual-material/refs/heads/main/img/6%20-%20Valor%20da%20benfeitoria.PNG)
 
 16. Lançar Data Avaliação: data do laudo.
     - Nível de Rigor é sempre Rigorosa (6 meses), conforme Portaria Conjunta 010/2023 - SPU/STN.
@@ -69,46 +69,37 @@ No Laudo, há a seção CONCLUSÃO onde o perito atribui os novos valores ao im�
     - Adicionar linhas acima do texto atual;
     - Atualização em [data do lançamento] conforme [Laudo SEI] (nº SEI), conforme Portaria Conjunta 010/2023 - SPU/STN.
 
-![Dados da Avaliação](https://github.com/Mateus-cpa/manual-material/blob/main/img/7%20-%20Valor%20da%20utiliza%C3%A7%C3%A3o%20e%20Observa%C3%A7%C3%A3o.PNG)
+![Dados da Avaliação](https://raw.githubusercontent.com/Mateus-cpa/manual-material/refs/heads/main/img/7%20-%20Valor%20da%20utiliza%C3%A7%C3%A3o%20e%20Observa%C3%A7%C3%A3o.PNG)
 
 19. Botão Avançar
 20. No campo Data Fim: Atualizar para 5 anos após a emissão do Laudo
 
-![Data Fim](https://github.com/Mateus-cpa/manual-material/blob/main/img/8%20-%20Data%20Fim.PNG)
+![Data Fim](https://raw.githubusercontent.com/Mateus-cpa/manual-material/refs/heads/main/img/8%20-%20Data%20Fim.PNG)
 
 21. Botão Avançar
 22. Conferir em Envio ao SIAFI a Reavaliação (diferença do saldo anterior em relação ao Laudo atual).
 23. Capturar a Tela a NL
 
-![Lançar NL](https://github.com/Mateus-cpa/manual-material/blob/main/img/9%20-%20Confirma%C3%A7%C3%A3o%20NL.PNG)
+![Lançar NL](https://raw.githubusercontent.com/Mateus-cpa/manual-material/refs/heads/main/img/9%20-%20Confirma%C3%A7%C3%A3o%20NL.PNG)
 
 24. Evento 541730 para reavaliação positiva
 25. Conferir saldo na conta de controle 899912401 - CONTROLE REGISTRO SPIUNET A RATIFICAR
 
-![Saldo conta controle](https://github.com/Mateus-cpa/manual-material/blob/main/img/10%20-%20Saldo%20conta%20controle.PNG)
+![Saldo conta controle](https://raw.githubusercontent.com/Mateus-cpa/manual-material/refs/heads/main/img/10%20-%20Saldo%20conta%20controle.PNG)
 
 ## Lançamento no SIAFI
 26. Ratificar o valor no SIAFI utilizando o INCDH (incluir documento hábil) tipo PA:
     - Situação IMB134
     - Conta corrente: RIP utilização (não do Imóvel)
 
-![INCDH](https://github.com/Mateus-cpa/manual-material/blob/main/img/11%20-%20lan%C3%A7ar%20PA%20siafi.PNG)
+![INCDH](https://raw.githubusercontent.com/Mateus-cpa/manual-material/refs/heads/main/img/11%20-%20lan%C3%A7ar%20PA%20siafi.PNG)
 
-## Conferir Balancete
-27. Balancete 231110100 Nivel desdobramento 7
-1
-1
-2
-1
-Se reavaliação negativa.
-236110100 - Reavaliação de bens imóveis - 
 
-## Reavaliação se novo valor for menor que anterior
-Se alguma conta corrente estiver devedor, deve lançar o PA para desinverter o saldo 
-Lançar PA com IMB005 - RECLAS. DO C/C INVERTIDO DA CONTA 23611.01.00-REAVAL.DE BENS IMÓVEIS P/VPD para inverter o saldo devedor 
-
+27. Evidenciar o histórico mensal das reavaliações utilizando o INCDH tipo PA:
+    - Se houver alguma reavaliação negativa, ocasionando em saldo devedor na conta 899912402, lançar PA para inverter valor.
+    - Situação IMB005.
+    - Avaliar conforme Macrofunção 02.10.06, item 4.3.4 e subitem 4.3.5.2.
     
-
 
 [Retornar para Roteiros](https://github.com/Mateus-cpa/manual-material/blob/main/roteiros.md)
 

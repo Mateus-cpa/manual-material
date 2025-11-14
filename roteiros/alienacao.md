@@ -104,17 +104,17 @@ Caminho: sipac/patrimônio/Cadastro/Gerência/Alienação/Baixa/Registrar/ Alien
 
 Cadastre-se primeiramente o destinatário:
 
-![Cadastro Destinatário](https://github.com/Mateus-cpa/manual-material/blob/main/img/registrar-alienar%20baixa.PNG)
+![Cadastro Destinatário](https://raw.githubusercontent.com/Mateus-cpa/manual-material/refs/heads/main/img/registrar-alienar%20baixa.PNG)
 
 Após elenque os bens a serem destinados:
 
-![Cadastro Bens](https://github.com/Mateus-cpa/manual-material/blob/main/img/registrar-alienar%20baixa2.PNG)
+![Cadastro Bens](https://raw.githubusercontent.com/Mateus-cpa/manual-material/refs/heads/main/img/registrar-alienar%20baixa2.PNG)
 
-![gravar_baixa](https://github.com/Mateus-cpa/manual-material/blob/main/img/alienacao/gravar_alienacao.png)
+![gravar_baixa](https://raw.githubusercontent.com/Mateus-cpa/manual-material/refs/heads/main/img/alienacao/gravar_alienacao.png)
 
-![termo_baixa](https://github.com/Mateus-cpa/manual-material/blob/main/img/alienacao/termo_de_baixa.png)
+![termo_baixa](https://raw.githubusercontent.com/Mateus-cpa/manual-material/refs/heads/main/img/alienacao/termo_de_baixa.png)
 
-![sei](https://github.com/Mateus-cpa/manual-material/blob/main/img/alienacao/arvore_sei.png)
+![sei](https://raw.githubusercontent.com/Mateus-cpa/manual-material/refs/heads/main/img/alienacao/arvore_sei.png)
 
 Verifique se foi lançado o PA no SIAFI.
 
