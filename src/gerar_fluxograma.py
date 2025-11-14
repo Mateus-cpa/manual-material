@@ -1,7 +1,7 @@
 import re
 import textwrap
 from typing import List, Dict, Optional
-from graphviz import Digraph
+from graphviz import Digraph, Source
 import streamlit as st
 
 # Helpers: extração simples de passos e sumarização heurística
@@ -49,6 +49,7 @@ def _extract_steps_from_md(md_text: str, max_steps: int = 20, max_words: int = 8
     return steps[:max_steps]
 
 
+
 def _summarize_text(text: str, max_words: int = 8) -> str:
     """Gera rótulo curto para nós usando heurística simples.
     (Transformers pode ser integrado se você quiser sumarização mais potente.)
@@ -61,6 +62,8 @@ def _summarize_text(text: str, max_words: int = 8) -> str:
     if len(words) <= max_words:
         return first_sentence
     return " ".join(words[:max_words]) + "..."
+
+
 
 
 def criar_fluxograma(
@@ -82,17 +85,17 @@ def criar_fluxograma(
 
     # Sequência de 10 cores padrão para cada Heading2 e seus subordinados
     default_group_colors = [
-        "#bd6262", "#fab731", "#fbd80f", "#75ee35", "#57bcf3",
+        "#bd6262", "#aa7c21", "#fbd80f", "#75ee35", "#57bcf3",
         "#5a60f8", "#c158fa", "#fe56b2", "#fa5579", "#ff2323",
     ]
-    default_color = "#f0f0f0"
     # color_map pode ser fornecido por índice (1-based) para cada Heading2
     if color_map is None:
         color_map = {i + 1: c for i, c in enumerate(default_group_colors)}
 
     # Formas padrão: heading2 -> box, heading3 -> box (legível), lateral -> ellipse
     if shape_map is None:
-        shape_map = {"h2": "box", "h3": "ellipse", "lateral": "parallelogram"}
+        shape_map = {"h2": "house", "h3": "ellipse", "lateral": "parallelogram"}
+        # https://graphviz.org/doc/info/shapes.html
 
     dot = Digraph("fluxograma")
     dot.attr(
@@ -102,11 +105,14 @@ def criar_fluxograma(
         ranksep="0.3",  # reduz espaço entre ranks diferentes
     )
 
-    prev_main_id = None
+    # Definir defaults de nó para forçar que todos os nós tenham forma/estilo.
+    
+    dot.attr('node', shape='box', style='rounded,filled', color="#333333", fontcolor="#111111", penwidth='1')
+
     group_index = 0
     last_main_id = None
 
-    # procurar título (first H1) e removê-lo do fluxo principal
+    # H1 é o título do fluxograma
     title = None
     for s in steps:
         if s.get('kind') == 'heading' and s.get('level') == 1:
@@ -132,29 +138,35 @@ def criar_fluxograma(
             continue
 
         node_id = f"n{i}"
-        short = _summarize_text(full_text, max_words=max_words)
-        label = short.replace('"', "'")
+
+        label = full_text.replace('"', "'")
+        
+
+        # Se o rótulo (resumido ou completo) ficar vazio, usar caractere zero-width
+        # como fallback para garantir que a forma seja desenhada.
+        if not label.strip():
+            label = "\u200b"
 
         # Lógica de cor/grupo: quando encontramos H2, incrementamos o índice de grupo
         if kind == 'heading' and level == 2:
             group_index += 1
-            group_color = color_map.get(group_index, default_color)
-            shape = shape_map.get('h2', 'box')
+            group_color = color_map.get(group_index)
+            shape = shape_map.get('h2', 'house')
             fillcolor = group_color
             # criar nó principal H2
-            dot.node(node_id, label, shape=shape, style="rounded,filled", fillcolor=fillcolor, color="#333333", fontcolor="#111111", tooltip=full_text)
+            dot.node(node_id, label=label, shape=shape, style="rounded,filled", fillcolor=fillcolor, color="#333333", fontcolor="#111111", tooltip=full_text)
             # conectar no fluxo principal
             if last_main_id is not None:
                 dot.edge(last_main_id, node_id)
             last_main_id = node_id
 
+        # H3 participa do fluxo principal — usar shape configurável (padrão: box) e ajustar fonte/margem
         elif kind == 'heading' and level == 3:
-            # H3 participa do fluxo principal — usar shape configurável (padrão: box) e ajustar fonte/margem
             shape = shape_map.get('h3', 'box')
-            fillcolor = color_map.get(group_index, default_color)
+            fillcolor = color_map.get(group_index)
             dot.node(
                 node_id,
-                label,
+                label=label,
                 shape=shape,
                 style="rounded,filled",
                 fillcolor=fillcolor,
@@ -174,7 +186,7 @@ def criar_fluxograma(
             fillcolor = "#f7f7f7"
             
             # Criar nó lateral de forma simples, sem subgraph ou grupos
-            dot.node(node_id, label,
+            dot.node(node_id, label=label,
                 shape=shape,
                 style="rounded,filled",
                 fillcolor=fillcolor,
@@ -198,6 +210,70 @@ def criar_fluxograma(
             continue
 
     return dot
+
+
+def render_fluxograma(dot: Digraph, filename: str, format: str = 'png', fallback_label: str = '(sem texto)'):
+    """Renderiza um Digraph e valida se existem nós com label vazio.
+
+    - Se encontrar labels vazios (ou contendo apenas caracteres invisíveis), substitui
+      por `fallback_label` e reexecuta a renderização.
+    - Retorna o objeto que fez a renderização (Digraph quando nada precisou mudar,
+      ou graphviz.Source quando foi necessário recriar a fonte modificada).
+    """
+    src = dot.source
+
+    # 1) renderizar primeiro como SVG para inspecionar o resultado
+    check_base = f"{filename}_check_svg"
+    try:
+        dot.render(check_base, format='svg', cleanup=True)
+        svg_path = check_base + '.svg'
+        with open(svg_path, 'r', encoding='utf-8') as f:
+            svg_text = f.read()
+    except Exception:
+        # se a renderização de verificação falhar, tentar renderizar direto no formato pedido
+        try:
+            dot.render(filename, format=format, cleanup=True)
+            return dot
+        except Exception:
+            # última tentativa: criar Source a partir do source e renderizar
+            s = Source(src)
+            s.render(filename, format=format, cleanup=True)
+            return s
+
+    # 2) verificar se há nós sem forma (grupos <g class="node"> contendo apenas <text>)
+    def _svg_has_missing_shapes(svg: str) -> bool:
+        missing = False
+        for m in re.finditer(r'(<g[^>]*class="node"[^>]*>)(.*?)(</g>)', svg, flags=re.S):
+            body = m.group(2)
+            # procurar por elementos de forma comuns
+            if not re.search(r'<(polygon|ellipse|rect|path|circle)\b', body):
+                # Nódulo sem forma detectado
+                missing = True
+                break
+        return missing
+
+    problematic = _svg_has_missing_shapes(svg_text)
+
+    if problematic:
+        # Inserir atributos globais de nó no source para forçar desenho de forma
+        insert_at = src.find('{')
+        if insert_at != -1:
+            insert_at += 1
+            node_defaults = '\n  node [shape=box, style="rounded,filled", fillcolor="#f7f7f7", color="#333333", fontcolor="#111111", penwidth="1.2"]\n'
+            new_src = src[:insert_at] + node_defaults + src[insert_at:]
+        else:
+            # fallback: prefixar os defaults
+            node_defaults = 'node [shape=box, style="rounded,filled", fillcolor="#f7f7f7", color="#333333", fontcolor="#111111", penwidth="1.2"]\n'
+            new_src = node_defaults + src
+
+        # renderizar com o novo source
+        s = Source(new_src)
+        s.render(filename, format=format, cleanup=True)
+        return s
+    else:
+        # tudo bem — gerar no formato solicitado
+        dot.render(filename, format=format, cleanup=True)
+        return dot
 
 if __name__ == "__main__":
     sample_md = """
@@ -228,7 +304,8 @@ if __name__ == "__main__":
     
     # Exemplo básico - sem ramificações laterais (padrão)
     fluxograma = criar_fluxograma(sample_md)
-    fluxograma.render("fluxograma_simples", format="png", cleanup=True)
+    # usar render_fluxograma para detectar e corrigir labels vazios se necessário
+    render_fluxograma(fluxograma, "fluxograma_simples", format="png")
     
     # Exemplo com ramificações laterais ativadas
     fluxograma_completo = criar_fluxograma(
@@ -236,4 +313,4 @@ if __name__ == "__main__":
         show_side_nodes=True,  # mostra H4 e listas numeradas
         horizontal=True,       # layout horizontal (opcional)
     )
-    fluxograma_completo.render("fluxograma_completo", format="png", cleanup=True)
+    render_fluxograma(fluxograma_completo, "fluxograma_completo", format="png")
