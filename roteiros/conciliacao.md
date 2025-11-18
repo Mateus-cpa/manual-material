@@ -156,18 +156,16 @@ Consultas saldo do Balancete 12321, da mesma forma dos outros relatórios:
 
 
 ## Relatar fechamento mensal das contas
-
+Compactar arquivos de pdf gerados em um arquivo.
 ![compactar arquivos](https://raw.githubusercontent.com/Mateus-cpa/manual-material/refs/heads/main/img/conciliacao/19%20-%20compactar%20arquivos.png)
 
+Copiar informação anterior, se quiser.
 ![copiar informação](https://raw.githubusercontent.com/Mateus-cpa/manual-material/refs/heads/main/img/conciliacao/20%20-%20Copiar%20informacao%20anterior.png)
 
+Editar o relatório de contas.
 ![relatorio de contas](https://raw.githubusercontent.com/Mateus-cpa/manual-material/refs/heads/main/img/conciliacao/21%20-%20relatorio%20de%20contas.png)
 
-
-[Retornar para Roteiros](https://github.com/Mateus-cpa/manual-material/blob/main/roteiros.md)
-
-[Retornar ao menu principal](https://github.com/Mateus-cpa/manual-material/blob/main/README.md)
-
+Não precisa manter a tabela de contas ma Informação.
 
 #### Ferramentas
 1. eLog: Relatório sintético dos bens RMB, RMI, RMA;
@@ -185,3 +183,9 @@ Consultas saldo do Balancete 12321, da mesma forma dos outros relatórios:
 1. Qualquer bem no sistema de controle com saldo (-) negativo é indicação de erro.
 
 2. Jamais a **DEPRECIAÇÃO** poderá ser superior ao valor do bem.
+
+
+[Retornar para Roteiros](https://github.com/Mateus-cpa/manual-material/blob/main/roteiros.md)
+
+[Retornar ao menu principal](https://github.com/Mateus-cpa/manual-material/blob/main/README.md)
+
