@@ -1,15 +1,75 @@
 [Retornar ao menu principal](https://github.com/Mateus-cpa/manual-material/blob/main/README.md)
 
 [Retornar para Roteiros](https://github.com/Mateus-cpa/manual-material/blob/main/roteiros.md)
-# Conciliação
-## Confirmar existência da divergência
-Verificar os slados contábeis e confrontar com saldos do e-Log
+# Conciliação de contas e Relatório mensal
+## Preparar pasta dos arquivos
+Copiar última pasta gerada e seu conteúdo:
+![copiar pasta](https://raw.githubusercontent.com/Mateus-cpa/manual-material/refs/heads/main/img/conciliacao/01%20-%20copiar%20pasta%20do%20m%C3%AAs%20anterior.png)
 
-## Pesquisar a origem
-Pode decorrer de Transferência, Baixa, Incorporação, TBNL (termo de baixa por não localização?), Alienação, desmembramento
+
+Alterar o nome dos documentos par aa data atual
+![alterar nome](https://raw.githubusercontent.com/Mateus-cpa/manual-material/refs/heads/main/img/conciliacao/02%20-%20alterar%20nomes.png)
+
+Alterar o nome da pasta para o mês de referência do relatório (geralmente o mês anterior)
+![renomear pasta](https://raw.githubusercontent.com/Mateus-cpa/manual-material/refs/heads/main/img/conciliacao/03%20-%20renomear%20pasta.png)
+
+## Avaliar contas contábeis e relatórios mensais
+Existem 4 níveis de avaliação do patrimônio:
+- Almoxarifado
+- Materiais permanentes
+- Bens intangíveis
+- Imóveis
+
+### eLog > RMA
+
+>Sipac>Almoxarifado>Relatórios>RMA Sintético
+
+- Selecionar o mês anterior. 
+- Selecionar apenas a UG Patrimonial.
+- **IMPORTANTE**: Não selecionar o Almoxarifado, caso contrário não retornará os lançamentos de outros Almoxarifados de sua UG (de munições do GAT/DREX ou dos NOs/Delegacias descentralizadas)
+
+### Siafi > conrazao 115610100
+Abrir o SIAFI operacional, atualmente após logar no SAIFI web.
+
+Abrir o comando >CONRAZAO
+![conrazao](https://raw.githubusercontent.com/Mateus-cpa/manual-material/refs/heads/main/img/conciliacao/07%20-%20conrazao.png)
+
+
+
+Indicar conta:
+- 115610100
+- Mes MMM igual do RMA
+
+![conta 115610100](https://raw.githubusercontent.com/Mateus-cpa/manual-material/refs/heads/main/img/conciliacao/08%20-%20conrazao%20115610100.png)
+
+
+### Comparar contas
+Verificar se o saldo total e das contas correntes no SIAFI estão iguais aos saldos de 
+![compara rma x 115610100](https://raw.githubusercontent.com/Mateus-cpa/manual-material/refs/heads/main/img/conciliacao/09%20-%20rma%20x%20conrazao.png)
+
+### Salvar tela do RMA e do CONRAZAO
+
+Em caso de conciliação das contas:
+
+![salvar rma](https://raw.githubusercontent.com/Mateus-cpa/manual-material/refs/heads/main/img/conciliacao/05%20-%20imprimir%20rma%20e%20salvar%20substituindo%20anterior.png)
+
+![ver arquivo atualizado](https://raw.githubusercontent.com/Mateus-cpa/manual-material/refs/heads/main/img/conciliacao/05%20-%20imprimir%20rma%20e%20salvar%20substituindo%20anterior.png)
+
+
+## Materiais permanentes
+- os saldos contábeis e confrontar com Relatórios mensais sintéticos do e-Log (saldo bruto e depreciação).
+
+### Pesquisar a origem no eLog
+Pode decorrer de:
+- Termo de Transferência (Envio ou recepção de bens entre UGs);
+- Termo de Alienação/Baixa;
+- Nota de Recebimento (Incorporação);
+- Termo de Localização;
+- TBNL (Termo de Baixa por Não Localização?);
+- Desmembramento.
 
 ## Indicar a possível causa e apontar a consequência
-Ex: Um resumo contábil de saída por transferência registrado em duplicidade no SIAFI, resulta numa divergênciade saldo no e-Log a **MAIOR**.
+Ex: Um resumo contábil de saída por transferência registrado em duplicidade no SIAFI, resulta numa divergência de saldo no e-Log a **MAIOR**.
 
 ### Conciliar saldos eLog x SIAFI
 Avaliar do Extrato de movimentação (e-Log) com o Razão da conta contábil.
@@ -48,23 +108,8 @@ Avaliar do Extrato de movimentação (e-Log) com o Razão da conta contábil.
 2. Jamais a **DEPRECIAÇÃO** poderá ser superior ao valor do bem.
 
 ## Relatar fechamento mensal das contas
-![copiar pasta](https://raw.githubusercontent.com/Mateus-cpa/manual-material/refs/heads/main/img/conciliacao/01%20-%20copiar%20pasta%20do%20m%C3%AAs%20anterior.png)
 
-![alterar nome](https://raw.githubusercontent.com/Mateus-cpa/manual-material/refs/heads/main/img/conciliacao/02%20-%20alterar%20nomes.png)
 
-![renomear pasta](https://raw.githubusercontent.com/Mateus-cpa/manual-material/refs/heads/main/img/conciliacao/03%20-%20renomear%20pasta.png)
-
-![emitir rma](https://raw.githubusercontent.com/Mateus-cpa/manual-material/refs/heads/main/img/conciliacao/04%20-%20rma%20sint%C3%A9tico.png)
-
-![salvar rma](https://raw.githubusercontent.com/Mateus-cpa/manual-material/refs/heads/main/img/conciliacao/05%20-%20imprimir%20rma%20e%20salvar%20substituindo%20anterior.png)
-
-![ver arquivo atualizado](https://raw.githubusercontent.com/Mateus-cpa/manual-material/refs/heads/main/img/conciliacao/05%20-%20imprimir%20rma%20e%20salvar%20substituindo%20anterior.png)
-
-![conrazao](https://raw.githubusercontent.com/Mateus-cpa/manual-material/refs/heads/main/img/conciliacao/07%20-%20conrazao.png)
-
-![conta 115610100](https://raw.githubusercontent.com/Mateus-cpa/manual-material/refs/heads/main/img/conciliacao/08%20-%20conrazao%20115610100.png)
-
-![compara rma x 115610100](https://raw.githubusercontent.com/Mateus-cpa/manual-material/refs/heads/main/img/conciliacao/09%20-%20rma%20x%20conrazao.png)
 
 ![balancete 12311](https://raw.githubusercontent.com/Mateus-cpa/manual-material/refs/heads/main/img/conciliacao/10%20-%20balancete%2012311.png)
 
